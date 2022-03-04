@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- Viet Nam Ward -->
+
+    <record id="partner_vn_localization_ward_form_view" model="ir.ui.view">
+        <field name="name">res.country.ward.form</field>
+        <field name="model">res.country.ward</field>
+        <field name="inherit_id" ref="partner_vn_localization.partner_vn_localization_ward_form_view"></field>
+        <field name="arch" type="xml">
+            <field name="district_id" position="after">
+                <field name="ghn_code" />
+            </field>
+        </field>
+    </record>
+
+    <record id="partner_vn_localization_ward_tree_view" model="ir.ui.view">
+        <field name="name">res.country.ward.tree</field>
+        <field name="model">res.country.ward</field>
+        <field name="inherit_id" ref="partner_vn_localization.partner_vn_localization_ward_tree_view"></field>
+        <field name="arch" type="xml">
+            <field name="district_id" position="after">
+                <field name="ghn_code" />
+                <!-- <field name="ghn_code_duplicate" /> -->
+            </field>
+        </field>
+    </record>
+
+
+
+</odoo>

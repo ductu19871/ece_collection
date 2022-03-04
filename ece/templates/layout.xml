@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Cái này bỏ luôn cả web/shop -->
+    <!-- <template id="layout" inherit_id="website.layout">
+        <xpath expr="//html" position="before">
+            <t t-set="no_footer" t-value="1" />
+        </xpath>
+    </template> -->
+
+    <!-- Cái này chỉ bỏ web/login -->
+    <template id="login" inherit_id="web.login">
+        <xpath expr="t[@t-call='web.login_layout']" position="inside">
+            <t t-set="no_footer" t-value="1" />
+        </xpath>
+    </template>
+
+</odoo>
+

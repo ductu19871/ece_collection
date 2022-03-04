@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!-- /shop/payment/transaction/ -> tx_url = '/payment/transfer/feedback' ->  sau khi form_feedback(post, 'transfer') -> werkzeug.utils.redirect('/payment/process')
+=> /shop/payment/validate
+@http.route(['/payment/process'], type="http", auth="public", website=True, sitemap=False)
+    def payment_status_page(self, **kwargs):
+        # When the customer is redirect to this website page,
+        # we retrieve the payment transaction list from his session
+        tx_ids_list = self.get_payment_transaction_ids()
+        payment_transaction_ids = request.env['payment.transaction'].sudo().browse(tx_ids_list).exists()
+
+        render_ctx = {
+            'payment_tx_ids': payment_transaction_ids.ids,
+        }
+        return request.render("payment.payment_process_page", render_ctx) -->
+    <template id="default_acquirer_button">
+        <input type="hidden" name="data_set" t-att-data-action-url="tx_url"/>
+        <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+        <t t-if="return_url">
+            <input type="hidden" name="return_url" t-att-value="return_url"/>
+        </t>
+        <input type="hidden" name="reference" t-att-value="reference"/>
+        <input type="hidden" name="amount" t-att-value="amount"/>
+        <input type="hidden" name="currency" t-att-value="currency.name"/>
+    </template> 
+
+    <record id="cash_acquirer_transfer" model="payment.acquirer">
+        <field name="name">Tiền mặt</field>
+        <field name="provider">cash</field>
+        <field name="sequence">2</field>
+        <field name="view_template_id" ref="default_acquirer_button"/>
+        <field name="image_128" type="base64" file="payment_transfer/static/src/img/transfer_icon.png"/>
+        <field name="module_id" ref="base.module_payment_transfer"/>
+        <field name="pending_msg">&lt;i&gt;Pending&lt;/i&gt;... The order will be validated after the payment.</field>
+        <field name="description" type="html">
+            <p>
+                Provide instructions to customers so that they can pay their orders manually.
+            </p>
+        </field>
+    </record>
+
+    
+
+</odoo>

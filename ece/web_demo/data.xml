@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="company_demo_hector" model="res.company">
+        <field name="name">Công ty Đông trùng hạ thảo Hector</field>
+        <field name="parent_id" ref="base.main_company"/>
+        <field name="ghn_shop_id">1295159</field>
+        <!-- <field name="website">https://dongtrunghathaohector.almshop.online/</field> -->
+        <!-- <field name="currency_id" ref="base.EUR"/> -->
+    </record>
+
+    <record id="company_demo_sunhine" model="res.company">
+        <field name="name">SunShine Spa</field>
+        <field name="parent_id" ref="base.main_company"/>
+        <field name="ghn_shop_id">1329421</field>
+        <!-- <field name="website">https://sunshinespaclinic.com/</field> -->
+        <!-- <field name="currency_id" ref="base.EUR"/> -->
+    </record>
+
+    <record id="company_demo_nvcs" model="res.company">
+        <field name="name">Công ty luật</field>
+        <field name="parent_id" ref="base.main_company"/>
+        <field name="ghn_shop_id">1295159</field>
+        <!-- <field name="website">https://nvcs.vn/</field> -->
+        <!-- <field name="currency_id" ref="base.EUR"/> -->
+    </record>
+
+    <record id="company_demo_vjp" model="res.company">
+        <field name="name">Công ty Việt Japan Partner</field>
+        <field name="parent_id" ref="base.main_company"/>
+        <field name="ghn_shop_id">1329421</field>
+        <!-- <field name="website">https://vj-partner.com/</field> -->
+        <!-- <field name="currency_id" ref="base.EUR"/> -->
+    </record>
+
+    <record id="product_product_hector_1" model="product.template">
+        <field name="name">Đông trùng hạ thảo Hector Sâm</field>
+        <field name="standard_price">800000</field>
+        <field name="list_price">900000</field>
+        <field name="type">consu</field>
+        <field name="weight">0.01</field>
+        <field name="uom_id" ref="uom.product_uom_unit"/>
+        <field name="uom_po_id" ref="uom.product_uom_unit"/>
+        <!-- <field name="default_code">3B</field> -->
+        <field name="image_1920" type="base64"
+               file="ece/static/img/nước-dông-trùng-hạ-thảo-hector-sâm-510.jpg"/>
+        <field name="company_id" ref="company_demo_hector"/>
+        <field name="sale_line_warn">no-message</field>
+        <field name="is_published">True</field>
+        <!-- Description-->
+        <field name="website_description" type="xml">
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Mô tả</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Trong mỗi gia đình mùa CoVID-19 đều nên có nước đông trùng hạ thảo Hector Sâm vì 3 lý do
+                            sau:
+                            <ol>
+                                <li style="line-heght: 1.75; padding: 8px 0px">
+                                    Dễ uống, cung cấp năng lượng nhanh khi cần làm việc. Buổi sáng dậy nếu chưa kịp
+                                    ăn sáng thì bạn chỉ cần uống một chai Hector Sâm. Có thể ăn 1-2 miếng bánh quy
+                                    nhỏ là có thể bắt tay vào làm việc ngay.
+                                </li>
+                                <li style="line-heght: 1.75; padding: 8px 0px">
+                                    Hỗ trợ sức khỏe cho người trung niên và người cao tuổi rất tốt.
+                                </li>
+                                <li style="line-heght: 1.75; padding: 8px 0px">
+                                    Tăng cường sức đề kháng và hệ miễn dịch của cơ thể để chống lại dịch bệnh. Nếu
+                                    có lây nhiễm cũng nhanh chóng vượt qua.
+                                </li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Đối tượng sử dụng nước đông trùng hạ thảo Hector Sâm</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Người trưởng thành từ 25 tuổi trở lên.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Người làm việc cường độ cao, nhiều stress, đi công tác thường xuyên.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Người thường xuyên tiếp khách, hay dùng bia rượu.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Vận động viên, người chơi thể thao.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Người cao tuổi, người cần phục hồi nhanh sau bệnh.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Phụ nữ sau sinh, ít sữa hoặc không có sữa cho con.
+                        </li>
+                        <p style="margin-top: 10px">Công dụng nổi bật</p>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Tăng đề kháng, tăng sức khỏe.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Phục hồi sức khỏe người bệnh, người già.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Giải độc cho gan thận (khi bia rượu nhiều).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Tăng cường sinh lực cho người chơi thể thao.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Tăng cường sinh lý nam &amp; nữ.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Tăng tiết sữa ở mẹ bầu sau khi sinh.
+                        </li>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Thành phần của nước đông trùng hạ thảo Hector Sâm</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Nấm đông trùng hạ thảo (500 mg).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Nam dương sâm (400 mg).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Chùm ngây (400 mg).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Đẳng sâm (100 mg).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Phụ liệu: chất chống oxy hóa (Acid ascorbic (L-)), chất ổn định (xanthan gum, canxi
+                            lactate), chất tạo ngọt (sucralose, stevia), đường mía, nước tinh khiết vừa đủ 1 chai
+                            50ml.
+                        </li>
+
+                        <p style="margin-top: 10px">Hướng dẫn sử dụng nước đông trùng hạ thảo Hector Sâm</p>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Uống 1-2 chai/ngày.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Uống trước khi ăn sáng. Lắc đều trước khi uống. Dùng ngon hơn khi ướp lạnh.
+                        </li>
+
+                        <p style="margin-top: 10px;">Bảo quản:</p>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Nơi khô ráo thoáng mát.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Tránh ánh nắng mặt trời.
+                        </li>
+
+                        <p style="margin-top: 10px">Lưu ý:</p>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Sản phẩm không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Không dùng nếu mẫn cảm với bất kỳ thành phần nào của sản phẩm.
+                        </li>
+                        <p style="line-heght: 1.75; padding: 10px 0px; font-size: 1rem; font-weight: 900;">
+                            Giá bán Đông trùng hạ thảo Hector Sâm: Giá bán lẻ chính hãng là 450.000đ/hộp 10 chai.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </field>
+    </record>
+
+    <record id="product_product_hector_2" model="product.template">
+        <field name="name">Nước Đông trùng hạ thảo Hector Collagen</field>
+        <field name="standard_price">580000</field>
+        <field name="list_price">580000</field>
+        <field name="type">consu</field>
+        <field name="weight">0.01</field>
+        <field name="uom_id" ref="uom.product_uom_unit"/>
+        <field name="uom_po_id" ref="uom.product_uom_unit"/>
+        <!-- <field name="default_code">3B</field> -->
+        <field name="image_1920" type="base64"
+               file="ece/static/img/Nước-Dông-trùng-hạ-thảo-Hector-Collagen.png"/>
+        <field name="company_id" ref="company_demo_hector"/>
+        <field name="sale_line_warn">no-message</field>
+        <field name="is_published">True</field>
+        <!-- Description-->
+        <field name="website_description" type="xml">
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Mô tả</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Đông trùng hạ thảo Hector Collagen là chai dạng nước uống liền với hàm lượng Collage cao mà
+                            giá chỉ bằng 50% hàng nhập do bạn không phải trả thêm chi phí vận chuyển từ nước ngoài và
+                            thuế nhập khẩu.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Đối tượng sử dụng</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Phụ nữ, trên 30, có nhu cầu sức khỏe, da đẹp, chống lão hóa.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Chị em rối loạn nội tiết tố, chu kỳ không đều, có dấu hiệu mụn do nội tiết tố
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Cải thiện vấn đề chăn gối.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Phụ nữ tiền mãn kinh và mãn kinh cần sử dụng đều.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Nam giới có nhu cầu cải thiện về da, tóc, xương khớp.
+                        </li>
+
+                        <p style="margin-top: 10px">Công dụng nổi bật của Đông trùng hạ thảo Hector Collagen</p>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Tăng đề kháng, tăng sức khỏe.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Bổ sung collagen &amp; HA, giúp da căng trẻ, mịn màng
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Chống lão hóa da, giảm mụn, nếp nhăn, vết thâm &amp; sạm nám
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Người có nhu cầu chăm sóc, làm đẹp da
+                        </li>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Công dụng nổi bật của Đông trùng hạ thảo Hector Collagen</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Tăng đề kháng, tăng sức khỏe.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Bổ sung collagen &amp; HA, giúp da căng trẻ, mịn màng
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Chống lão hóa da, giảm mụn, nếp nhăn, vết thâm &amp; sạm nám
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Người có nhu cầu chăm sóc, làm đẹp da
+                        </li>
+                    </div>
+                </div>
+            </section>
+
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Thành phần chính:</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Đông trùng hạ thảo (200 mg).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Collagen peptides (5000 mg).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Hyaluronic acid (10 mg).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Nước ép chanh dây (1500 mg).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Nước ép dứa (500 mg).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Nước ép sơ ri (500 mg).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Phụ liệu: chất chống oxy hóa (Acid ascorbic (L-)); chất ổn định (xanthan gum, canxi
+                            lactate), chất tạo ngọt (sucralose, stevia), đường mía, nước tinh khiết vừa đủ 1 chai 50ml.
+                        </li>
+
+                        <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                            <h2 class="o_page_header">Hướng dẫn sử dụng</h2>
+                        </section>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Uống 1-2 chai/ngày.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Uống trước khi ăn sáng. Lắc đều trước khi uống. Dùng ngon hơn khi ướp lạnh.
+                        </li>
+
+                        <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                            <h2 class="o_page_header">Bảo quản:</h2>
+                        </section>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Nơi khô ráo thoáng mát.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Tránh ánh nắng mặt trời.
+                        </li>
+
+                        <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                            <h2 class="o_page_header">Giá bán Đông trùng hạ thảo Hector Collagen</h2>
+                        </section>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Hector Collagen có giá bán là 580.000đ/hộp 10 chai.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Mỗi tháng dùng 3 hộp cho 30 ngày là 1.740.000đ.
+                        </li>
+                    </div>
+                </div>
+            </section>
+        </field>
+    </record>
+
+    <record id="product_product_hector_3" model="product.template">
+        <field name="name">Viên nang Đông trùng hạ thảo Hector</field>
+        <field name="standard_price">900000</field>
+        <field name="list_price">900000</field>
+        <field name="type">consu</field>
+        <field name="weight">0.01</field>
+        <field name="uom_id" ref="uom.product_uom_unit"/>
+        <field name="uom_po_id" ref="uom.product_uom_unit"/>
+        <!-- <field name="default_code">3B</field> -->
+        <field name="image_1920" type="base64"
+               file="ece/static/img/đông-trùng-hạ-thảo-viên.jpg"/>
+        <field name="company_id" ref="company_demo_hector"/>
+        <field name="sale_line_warn">no-message</field>
+        <field name="is_published">True</field>
+        <!-- Description-->
+        <field name="website_description" type="xml">
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Mô tả</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            VIÊN NANG ĐÔNG TRÙNG HẠ THẢO HECTOR 100%
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Đối tượng sử dụng</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Người lao động trí óc và thể lực với cường độ cao (doanh nhân, vận động viên…)
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Người lớn tuổi và người vừa bệnh dậy, người suy nhược và thể trạng yếu
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Người bệnh tiểu đường, huyết áp, người cần hỗ trợ, bảo vệ chức năng gan, thận phổi và đặc
+                            biệt bệnh ung thư.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Có nhu cầu trẻ hóa và tăng cuờng sức khỏe.
+                        </li>
+                        <p style="line-heght: 1.75; padding: 8px 0px">
+                            * Trừ phụ nữ mang thai, người suy gan, suy thận và người dị ứng với đông trùng hạ thảo.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Công dụng nổi bật</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Bồi bổ sức khỏe, tăng sức đề kháng, tăng năng lượng &amp; chống mệt mỏi.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Bảo vệ và phục hồi chức năng phổi, gan &amp; thận.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Cải thiện lưu thông máu huyết, tuần hoàn tim mạch và giảm stress.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Hỗ trợ phòng ngừa và điều trị ung thư, tiểu đường, huyết áp, mất ngủ.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Giúp tăng sinh lý cho cả hai giới.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Chống oxy hóa, trẻ hóa cơ thể.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Tiện dụng với dạng viên.
+                        </li>
+                    </div>
+                </div>
+            </section>
+
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Thành phần chính:</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            100% Bột nấm đông trùng hạ thảo (Cordyceps militaris): 300 mg.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Phụ liệu: Vỏ nang gelatin vừa đủ 1 viên.
+                        </li>
+
+                        <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                            <h2 class="o_page_header">Cách dùng:</h2>
+                        </section>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Liều phục hồi: mỗi ngày dùng 2 viên, vào sáng và trưa.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Liều duy trì: mỗi ngày dùng đều 1 viên, dùng đều mỗi sáng.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Sản phẩm có thể dùng thường xuyên.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Hấp thu tốt khi dùng lúc đói.
+                        </li>
+
+                        <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                            <h2 class="o_page_header">Bảo quản:</h2>
+                        </section>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Nơi khô ráo thoáng mát.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Tránh ánh nắng mặt trời.
+                        </li>
+
+                        <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                            <h2 class="o_page_header">Giá bán viên nang Đông trùng hạ thảo Hector:</h2>
+                        </section>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Giá bán lẻ viên nang Hector là 900.000đ/lọ 30 viên.
+                        </li>
+                    </div>
+                </div>
+            </section>
+        </field>
+    </record>
+
+    <record id="product_product_hector_4" model="product.template">
+        <field name="name">Sợi Đông trùng hạ thảo Hector</field>
+        <field name="standard_price">900000</field>
+        <field name="list_price">900000</field>
+        <field name="type">consu</field>
+        <field name="weight">0.01</field>
+        <field name="uom_id" ref="uom.product_uom_unit"/>
+        <field name="uom_po_id" ref="uom.product_uom_unit"/>
+        <!-- <field name="default_code">3B</field> -->
+        <field name="image_1920" type="base64"
+               file="ece/static/img/Dông-trùng-hạ-thảo-Hector-sợi-sấy.png"/>
+        <field name="company_id" ref="company_demo_hector"/>
+        <field name="sale_line_warn">no-message</field>
+        <field name="is_published">True</field>
+        <!-- Description-->
+        <field name="website_description" type="xml">
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Mô tả</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Đông trùng hạ thảo Hector sấy thăng hoa là loại dùng để uống với nước nóng như uống trà hoặc
+                            nấu với cháo và lẩu, soup rất bổ dưỡng.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Đối tượng sử dụng</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Sợi đông trùng hạ thảo Hector tốt cho người lao động trí óc và thể lực với cường độ cao
+                            (doanh nhân, vận động viên…)
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Người lớn tuổi và người vừa bệnh dậy, người suy nhược và thể trạng yếu
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Người bệnh tiểu đường, huyết áp, người cần hỗ trợ, bảo vệ chức năng gan, thận phổi và đặc
+                            biệt bệnh ung thư.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Có nhu cầu trẻ hóa và tăng cuờng sức khỏe.
+                        </li>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Công dụng nổi bật</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Bồi bổ sức khỏe, tăng sức đề kháng, tăng năng lượng &amp; chống mệt mỏi.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Bảo vệ và phục hồi chức năng phổi, gan &amp; thận.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Cải thiện lưu thông máu huyết, tuần hoàn tim mạch và giảm stress.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Hỗ trợ phòng ngừa và điều trị ung thư, tiểu đường, huyết áp, mất ngủ.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Giúp tăng sinh lý cho cả hai giới.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Chống oxy hóa, trẻ hóa cơ thể.
+                        </li>
+                    </div>
+                </div>
+            </section>
+
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Thành phần chính:</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p style="line-heght: 1.75; padding: 8px 0px">
+                            100% Sợi nấm Đông trùng hạ thảo sấy thăng hoa.
+                            Không chứa tạp chất, không chất bảo quản hay bất kỳ thành phần lạ nào khác
+                        </p>
+
+                        <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                            <h2 class="o_page_header">Cách dùng:</h2>
+                        </section>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Pha trà: ngâm 2 – 3 sợi nấm với 150 – 200 ml nước sôi trong 10 phút. Dùng cả nước lẫn sợi
+                            nấm. Mỗi ngày có thể sử dụng 1 – 2 lần, tuỳ nhu cầu.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Ngâm rượu: 5gr nấm đông trùng hạ thảo/ 1 lít rượu
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Ngâm mật ong: 5gr nấm đông trùng hạ thảo/ 1 lít mật ong
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Nấu cháo/soup: sử dụng như một thành phần nguyên liệu để nấu cháo hay soup dinh dưỡng…, dùng
+                            2 – 3 sợi nấm/chén. Dùng 1 – 2 chén/ngày.
+                        </li>
+
+                        <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                            <h2 class="o_page_header">Bảo quản:</h2>
+                        </section>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Nơi khô ráo thoáng mát.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Tránh ánh nắng mặt trời.
+                        </li>
+
+                        <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                            <h2 class="o_page_header">Giá bán sản phẩm sợi Đông trùng hạ thảo Hector sấy thăng hoa</h2>
+                        </section>
+                        <li style="line-heght: 1.75; padding: 8px 0px">
+                            Hector sợi sấy có giá bán là 900.000đ/lọ.
+                        </li>
+                    </div>
+                </div>
+            </section>
+        </field>
+    </record>
+
+    <record id="product_product_sunshine_1" model="product.template">
+        <field name="name">Gel Rửa Mặt IDENEL 150ml</field>
+        <field name="standard_price">600000</field>
+        <field name="list_price">650000</field>
+        <field name="type">consu</field>
+        <field name="weight">0.01</field>
+        <field name="uom_id" ref="uom.product_uom_unit"/>
+        <field name="uom_po_id" ref="uom.product_uom_unit"/>
+        <!-- <field name="default_code">3B</field> -->
+        <field name="image_1920" type="base64"
+               file="ece/static/img/Gel-Cleanser.jpg"/>
+        <field name="company_id" ref="company_demo_sunhine"/>
+        <field name="sale_line_warn">no-message</field>
+        <field name="is_published">True</field>
+        <!-- Description-->
+        <field name="website_description" type="xml">
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Gel Rửa Mặt IDENEL 150ml</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Gel rửa mặt Idenel là sản phẩm không thể thiếu trong bước chăm sóc da hằng ngày. Sản phẩm
+                            giúp làm sạch da một cách nhẹ dịu đồng thời dưỡng ẩm cho làn da mềm mại, mịn màng.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Tầm quan trọng của sữa rửa mặt đối với da là gì?</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Bình thường bạn chăm sóc da như thế nào? Làm thế nào để da của bạn trở nên đẹp hơn sáng hơn
+                            và khỏe mạnh hơn? Hãy cùng BlueSea tìm hiểu phương pháp để làm sạch da mỗi ngày dưới đây
+                            nhé.
+                        </p>
+                        <p style="line-heght: 1.75; padding: 8px 0px">
+                            Tại sao cần làm sạch da mặt mỗi ngày?
+                        </p>
+                        <ul style="list-style: none">
+                            <li style="line-heght: 1.75; padding: 8px 0px">
+                                Vi khuẩn và bụi bẩn bám sâu vào da có thể phá vỡ các kết cấu bảo vệ da. Khiến da mẫn
+                                cảm,
+                                thường xuyên bị kích ứng khi sử dụng mỹ phẩm hoặc dược mỹ phẩm.
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px">
+                                Vậy nên, việc rửa mặt sẽ loại bỏ đi bụi bẩn, vi khuẩn, làm sạch sâu cho da, tạo sự
+                                thoáng
+                                mát, nhẹ nhàng cho da, tránh được các tình trạng gây bít tắc lỗ chân lông. Giúp cho quá
+                                trình hấp thu các dưỡng chất từ các sản phẩm chăm sóc da khác.
+                            </li>
+                        </ul>
+                        <p style="line-heght: 1.75; padding: 8px 0px">
+                            Lựa chọn sữa rửa mặt có ảnh hưởng tới da mặt như thế nào?
+                        </p>
+                        <ul style="list-style: none">
+                            <li style="line-heght: 1.75; padding: 8px 0px">
+                                Việc lựa chọn sữa rửa mặt sẽ ảnh hưởng trực tiếp đến tình trạng da của bạn.
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px">
+                                Sữa rửa mặt có hoạt chất tẩy rửa quá mạnh sẽ phá vỡ sự cân bằng của pH trên da.
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px">
+                                Sữa rửa mặt có nồng độ hương liệu cao, gây kích ứng da.
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px">
+                                Sữa rửa mặt kèm công dụng trị mụn hay làm trắng da quá cao, không phù hợp với da nhạy
+                                cảm.
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px">
+                                Vậy tiêu chí để lựa chọn sữa rửa mặt phù hợp với da của bạn là gì?
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px">
+                                Làm sạch hiệu quả mà vẫn nhẹ dịu
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px">
+                                Không lấy đi lớp ẩm tự nhiên của làn da.
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px">
+                                Đáp ứng được cả hai tiêu chí trên, <a href="https://blueseanice.com/">Blue Sea</a> giới
+                                thiệu với các bạn sản phẩm gel rửa mặt cao cấp: Idenel Gel Cleanser.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Gel rửa mặt Idenel gồm những thành phần gì?</h2>
+            </section>
+            <section data-snippet-id="quality" style="width: 100%">
+                <div class="card-deck" style="width: 100%; margin: 0;">
+                    <div class="card" style="min-width: 25%;">
+                        <div class="card-header">Hoàng Cầm</div>
+                        <div class="card-body" style="text-align: justify; ">
+                            <li>
+                                Rễ cây hoàng cầm có khả năng làm dịu da, chống dị ứng vô cùng hiệu quả. Ngoài ra, đây
+                                còn là thành phần có thể ngăn chặn sự hình thành và phát triển của vi khuẩn gây mụn nhờ
+                                những kháng thể tự nhiên.
+                            </li>
+                            <li>
+                                Rễ cây hoàng cầm có chứa các flavonoid như baicalein, baicalin, oroxylin A, baicalein –
+                                7 – O – glucoside, tanin,… Đây đều là những chất giúp điều trị viêm nhiễm, dị ứng trên
+                                da và hỗ trợ chống lão hóa, giúp làn da khỏe đẹp.
+                            </li>
+                        </div>
+                    </div>
+                    <div class="card" style="min-width: 25%;">
+                        <div class="card-header">Trà Xanh</div>
+                        <div class="card-body" style="text-align: justify; ">
+                            <li>
+                                Trong trà xanh có chứa các chất chống oxy hóa cao gấp 20 lần vitamin E, giúp da mặt hết
+                                nhờn và ngăn ngừa mụn trứng cá phát triển.
+                            </li>
+                            <li>
+                                Ngoài ra trà xanh còn nuôi dưỡng da từ sâu bên trong, tăng cường khả năng tái tạo tế bào
+                                da. Thúc đẩy sản sinh Collagen và các thành phần chống oxy hóa giúp làn da được trẻ hóa,
+                                tràn đầy sức sống.
+                            </li>
+                        </div>
+                    </div>
+                    <div class="card" style="min-width: 25%;">
+                        <div class="card-header">Rễ hoa mẫu đơn</div>
+                        <div class="card-body" style="text-align: justify; ">
+                            <li>
+                                Trong rễ hoa mẫu đơn có chứa Tyrosinase là một loại enzyme có nhiều công dụng khác nhau
+                                cho làm đẹp da. Nó đóng vai trò xúc tác trong hai bước đầu tiên của việc tái tạo các sắc
+                                tố da.
+                            </li>
+                            <li>
+                                Ngoài ra, chúng còn giúp ức chế melanin, từ đó làm giảm thâm nám, dưỡng da sáng hồng và
+                                đều màu.
+                            </li>
+                        </div>
+                    </div>
+                    <div class="card" style="min-width: 25%; margin-top: 20px;">
+                        <div class="card-header">Ngải Cứu</div>
+                        <div class="card-body" style="text-align: justify; ">
+                            <li>
+                                Lá ngải cứu có chứa tinh dầu, các flavonoid, các acid amin, có tác dụng kháng khuẩn,
+                                thúc đẩy quá trình tuần hoàn máu, trao đổi chất. Tinh chất ngải cứu giúp đào thải loại
+                                bỏ các chất bụi bẩn, chất nhờn trên da, giữ ẩm và làm sáng da.
+                            </li>
+                        </div>
+                    </div>
+                    <div class="card" style="min-width: 25%; margin-top: 20px;">
+                        <div class="card-header">Allantoin</div>
+                        <div class="card-body" style="text-align: justify; ">
+                            <li>
+                                Allantoin được chiết xuất từ rễ cây comfrey. Allantoin có tác dụng hút ẩm được sử dụng
+                                rộng rãi trong làm đẹp,mỹ phẩm, da liễu và các dược phẩm như là hoạt chất bảo vệ da giúp
+                                giữ ẩm, làm dịu và chống kích ứng hiệu quả.
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Gel rửa mặt Idenel mang lại những công dụng gì cho da?</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p style="margin: 0; padding: 10px 0; font-weight: 600; font-size: 1.2rem;">
+                            Gel rửa mặt Idenel giúp làm sạch sâu cho da
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Việc lựa chọn sữa rửa mặt sẽ ảnh hưởng trực tiếp đến tình trạng da của bạn.
+                        </li>
+
+                        <p style="margin: 0; padding: 10px 0; font-weight: 600; font-size: 1.2rem;">
+                            Loại bỏ tế bào chết và các tạp chất bám sâu bên trong da
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Dầu thừa trên da có cấu trúc được hình thành từ các acid béo, với các liên kết khá bền. Để
+                            phá vỡ các liên kết đó, và rửa trôi chúng thì bạn cần những hoạt chất hơn là nước thông
+                            thường.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Gel rửa mặt <a href="https://blueseanice.com/danh-muc/idenel/">Idenel</a> cùng các hoạt chất
+                            làm sạch sẽ bám lấy bụi bẩn và lôi chúng đi dễ dàng.
+                        </li>
+
+                        <p style="margin: 0; padding: 10px 0; font-weight: 600; font-size: 1.2rem;">
+                            Ngăn ngừa và điều trị các tình trạng về da
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Những vấn đề liên quan đến vi khuẩn, viêm da như mụn thì việc sử dụng Gel rửa mặt Idenel sẽ
+                            đóng góp to lớn đến kết quả điều trị. Bởi lẽ, các thành phần có trong sữa rửa mặt sẽ tiêu
+                            diệt các loại vi khuẩn gây mụn, giúp da luôn sạch sẽ.
+                        </li>
+
+                        <p style="margin: 0; padding: 10px 0; font-weight: 600; font-size: 1.2rem;">
+                            Gel rửa mặt hỗ trợ các sản phẩm dưỡng da thẩm thấu tốt hơn
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Nếu da chưa được làm sạch, các tạp chất còn lại sẽ tạo thành lớp màng chắn không cho những
+                            sản phẩm dưỡng thẩm thấu được. Khi đó da của bạn sẽ có hiện tượng bít tắc gây mụn ẩn và các
+                            bệnh lý khác của da.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Vì vậy bạn cần làm sạch da, lỗ chân lông được thông thoáng thì dưỡng chất mới có thể thẩm
+                            thấu vào da sâu và trọn vẹn nhất.
+                        </li>
+
+                        <p style="margin: 0; padding: 10px 0; font-weight: 600; font-size: 1.2rem;">
+                            Dưỡng ẩm
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Hình thành lớp màng dưỡng ẩm sau khi rửa mặt, duy trì làn da mềm mại, căng mượt. Sản phẩm
+                            dịu nhẹ cho làn da, không gây kích ứng ngay cả với làn da nhạy cảm nhờ khả năng tẩy rửa nhẹ.
+                        </li>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Sử dụng Gel rửa mặt Idenel như thế nào để hiệu quả?</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Việc rửa mặt sẽ giúp ích rất nhiều cho da, tống khứ bụi bẩn và làm sạch sâu. Tuy nhiên, các
+                            điều đó chỉ xảy ra khi bạn rửa mặt đúng cách . Sẽ có 5 bước đơn giản dưới đây, hãy thực hiện
+                            đúng nhé.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Sản phẩm tốt nhất nên được sử dụng sau bước tẩy trang.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Nhấn vòi 1-2 lần để lấy được lượng gel vừa đủ.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Massage nhẹ nhàng trên mặt trong khoảng 2 phút.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Rửa lại với nước.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Lau mặt bằng bông thấm toner.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Nếu bạn đang phân vân chưa tìm được sản phẩm làm sạch phù hợp. Hãy sử dụng Gel rửa mặt
+                            Idenel cho làn da sạch bong, căng mọng mỗi ngày.
+                        </li>
+                    </div>
+                </div>
+            </section>
+        </field>
+    </record>
+
+    <record id="product_product_sunshine_2" model="product.template">
+        <field name="name">Vi kim gai Nanotox</field>
+        <field name="standard_price">1200000</field>
+        <field name="list_price">1800000</field>
+        <field name="type">consu</field>
+        <field name="weight">0.01</field>
+        <field name="uom_id" ref="uom.product_uom_unit"/>
+        <field name="uom_po_id" ref="uom.product_uom_unit"/>
+        <!-- <field name="default_code">3B</field> -->
+        <field name="image_1920" type="base64"
+               file="ece/static/img/Thiet-ke-khong-ten.jpg"/>
+        <field name="company_id" ref="company_demo_sunhine"/>
+        <field name="sale_line_warn">no-message</field>
+        <field name="is_published">True</field>
+        <!-- Description -->
+        <field name="website_description" type="xml">
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Vi kim gai Nanotox</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Công nghệ vi kim gai Nanotox độc quyền từ Hàn Quốc. Vi kim mang theo Altum Peptide đi sâu
+                            vào bên trong lớp đáy của da. Altum Peptide hòa quyện cùng EGF – β1, Glutathione,… Mang đến
+                            một làn da khỏe mạnh, căng bóng, trắng sáng mỗi ngày.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Vi kim gai Nanotox là gì?</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Là công nghệ độc quyền sáng chế bởi viện nghiên cứu SR Biotox. Sản xuất ra vi kim có đính
+                            các phương tiện vận chuyển hoạt tính đưa vào sâu trong da. Cung cấp nguyên liệu, oxy giàu
+                            dưỡng chất thực vật nuôi cấy tới lớp đáy của da, sắp xếp lại hệ Collagen và Elastin, tăng độ
+                            đàn hồi, khôi phục làn da bị tổn thương, lão hóa, da trở nên sáng khỏe, căng tràn sức sống.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Thành phần của vi kim gai Nanotox.</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Là công nghệ độc quyền sáng chế bởi viện nghiên cứu SR Biotox. Sản xuất ra vi kim có đính
+                            các phương tiện vận chuyển hoạt tính đưa vào sâu trong da. Cung cấp nguyên liệu, oxy giàu
+                            dưỡng chất thực vật nuôi cấy tới lớp đáy của da, sắp xếp lại hệ Collagen và Elastin, tăng độ
+                            đàn hồi, khôi phục làn da bị tổn thương, lão hóa, da trở nên sáng khỏe, căng tràn sức sống.
+                        </p>
+                        <p style="margin: 0; padding: 10px 0; font-weight: 600; font-size: 1.2rem;">
+                            Vi kim Altum peptide
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Peptide là chuỗi các acid amin ở dạng ngắn, khi các acid amin này liên kết với nhau sẽ tạo
+                            thành một hệ thống Protein. Vi kim gai gắn Altum peptide có độ dài 0,02mm có thể đi sâu vào
+                            lớp đáy của da. Từ đó sản sinh collagen giúp ngăn ngừa lão hóa, giảm thiểu nếp nhăn, tăng độ
+                            đàn hồi và làm giảm chứng đỏ da, mẩn đỏ, viêm nhiễm trên da.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Cơ thể không hấp thụ collagen nguyên bản từ các cá thể khác. Chính vì vậy để cung cấp lượng
+                            collagen cho da cách tốt nhất cần cung cấp đủ nguyên liệu là Peptide. Peptide là chuỗi các
+                            acid amin ở dạng ngắn khi liên kết với nhau sẽ tạo thành một hệ thống Protein như: Colagen,
+                            Elastin, Keratin tạo độ đàn hồi, săn chắc cho da.
+                        </li>
+
+                        <p style="margin: 0; padding: 10px 0; font-weight: 600; font-size: 1.2rem;">
+                            EGF – β1
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            EGF là viết tắt của Epidermal Growth Factor hay còn gọi là yếu tố tăng trưởng biểu bì. Khi
+                            EGF gắn với chuỗi phân tử đơn β1: Nhân tố EGF – β1 sẽ tạo ra hoạt tính sinh học mạnh nhất
+                            thúc đẩy quá trình tái tạo tế bào mới, đồng thời tăng cường hàng rào bảo vệ tầng biểu bì của
+                            da, ngăn chặn những tác nhân gây tổn thương, lão hóa da tối đa.
+                        </li>
+
+                        <p style="margin: 0; padding: 10px 0; font-weight: 600; font-size: 1.2rem;">
+                            Glutathione
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Glutathione có chức năng ức chế Tyrosinase là nguyên nhân gia tăng sắc tố melanin nhờ đó mà
+                            da càng trở nên trắng sáng hơn. Chất chống oxy hóa trong Glutathione làm chậm quá trình lão
+                            hóa da, tăng cường độ đàn hồi da ở các thớ cơ. Từ đó, đào thải độc tố kim loại nặng gây độc
+                            hại trên da, lấy đi các tế bào sừng, bã nhờn, dầu thừa, bụi bẩn trên da một cách nhẹ nhàng.
+                        </li>
+
+                        <p style="margin: 0; padding: 10px 0; font-weight: 600; font-size: 1.2rem;">
+                            PGA
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Thành phần chứa PGA (Polyglutamic Acid) Giúp da sáng khỏe, đều màu, đẩy lùi các vấn đề lão
+                            hoá, vết chân chim ở da. Bên cạnh đó, PGA còn cải thiện cấu trúc bề mặt da giúp da căng mịn,
+                            trắng sáng.
+                        </li>
+
+                        <p style="margin: 0; padding: 10px 0; font-weight: 600; font-size: 1.2rem;">
+                            Hyaluronic acid
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Hyaluronic acid (HA) Là hoạt chất dưỡng ẩm vượt trội. Cung cấp độ ẩm, ngăn ngừa bay hơi nước
+                            cho da.
+                        </li>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Cơ chế hoạt động của vi kim gai Nanotox.</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Sử dụng vi kim gai gắn Altum peptide có độ dài 0,02mm đi sâu vào lớp đáy của da. Khi Altum
+                            peptide đi vào da sẽ xảy ra phản ứng giữa Glutathione có trong cơ thể phân tách nhỏ thành
+                            nano Peptide để dễ dàng thẩm thấu qua khoảng trống các lớp tế bào xuống hạ bì. Nano peptide
+                            kết hợp cùng với hoạt chất EGF – β1 sẽ là hợp chất mạnh nhất giúp cho việc gia tăng tốc độ
+                            sản sinh Collagen, đồng thời giúp lớp tế bào hạt và lớp tế bào gai dày khỏe tăng sức đề
+                            kháng bảo vệ da.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Công dụng mà vi kim Altum peptide mang lại cho da.</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Với cơ chế hoạt động đặc biệt của vi kim gai Nanotox, sản phẩm mang lại những công dụng hiệu
+                            quả cho da như:
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Cân bằng sự phát triển của tế bào sợi với tế bào cơ, từ đó giúp điều hoà sự săn chắc và đàn
+                            hồi cho da.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Tái cấu trúc hệ collagen và kích thích sản sinh collagen mới. Giúp nâng cơ, làm mờ nếp nhăn.
+                            Se khít lỗ chân lông, duy trì làn da tươi trẻ.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Nuôi dưỡng da từ sâu bên trong lớp đáy. Giảm các hắc sắc tố trên da, thâm nám, sạm da sẽ
+                            nhanh chóng được loại bỏ.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Thúc đẩy quá trình tuần hoàn máu. Cải thiện tình trạng da xỉn màu. Giúp da trắng sáng và
+                            hồng hào hơn.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Tái tạo tế bào mới giúp lớp biểu bì dày hơn.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0px;">
+                            Điều trị tình trạng giãn mao mạch, teo da.
+                        </li>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Hướng dẫn sử dụng vi kim gai nanotox.</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Vi kim gai Nanotox là dòng sản phẩm mới mang lại hiệu quả săn chắc, dưỡng trắng cho da sau 6
+                            tuần sử dụng. Sản phẩm được sử dụng hằng ngày vào các buổi tối.
+                        </p>
+                        <ol>
+                            <li style="line-heght: 1.75; padding: 8px 0px;">
+                                Làm sạch da.
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px;">
+                                Sử dụng nước hoa hồng cân bằng độ ẩm cho da.
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px;">
+                                Sử dụng vi kim gai Nanotox.
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px;">
+                                Dùng tinh chất/tế bào gốc thẩm thấu sâu bên trong da.
+                            </li>
+                            <li style="line-heght: 1.75; padding: 8px 0px;">
+                                Dùng kem dưỡng da hằng ngày.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+        </field>
+    </record>
+
+    <record id="product_product_nvcs" model="product.template">
+        <field name="name">Gói “Luật sư”</field>
+        <field name="standard_price">500000</field>
+        <field name="list_price">500000</field>
+        <field name="type">consu</field>
+        <field name="weight">0.01</field>
+        <field name="uom_id" ref="uom.product_uom_unit"/>
+        <field name="uom_po_id" ref="uom.product_uom_unit"/>
+        <!-- <field name="default_code">3B</field> -->
+        <field name="image_1920" type="base64"
+               file="ece/static/img/nvcs.png"/>
+        <field name="company_id" ref="company_demo_nvcs"/>
+        <field name="sale_line_warn">no-message</field>
+        <field name="is_published">True</field>
+        <!-- Description -->
+        <field name="website_description" type="xml">
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">DỊCH VỤ LUẬT SƯ RIÊNG</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            <strong>Dịch vụ luất sư riêng</strong>
+                            của công ty NVCS chúng tôi đám ứng cho các doanh nghiệp, tổ chức hay
+                            cá nhân đang có nhu cầu tìm kiếm luật sư tư vấn giải quyết vấn đề pháp lý riêng, nhằm đảm
+                            bảo tối ưu nhất quyền và lợi ích hợp pháp cho mình. Với mạng lưới Luật Sư giỏi, giàu kinh
+                            nghiệm tại Tp Hồ Chí Minh , chuyên tư vấn và giải quyết các vấn đề pháp lý ở hầu hết mọi
+                            lĩnh vực về luật doanh nghiệp, luật hôn nhân gia đình, luật lao động, luật hình sự, luật
+                            thế, luật đất đai… sẽ là một trong những lựa chọn tốt nhất khi khách hàng cần tìm đến dịch
+                            vụ luật sư riêng.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Tại sao phải có luật sư riêng cho doanh nghiệp?</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Trong bối cảnh môi trường pháp lý thay đổi hàng ngày, các quan hệ kinh doanh thương mại ngày
+                            càng phức tạp, bất cứ sự việc nào xảy ra trong đời sống hoặc trong doanh nghiệp cũng có thể
+                            liên quan đến pháp luật:
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Tranh chấp nội bộ: tranh chấp lao động đối với nhân viên, kỷ luật nhân sự, tranh chấp các
+                            thành viên/cổ đông góp vốn, chiếm đoạt tài sản công ty, …
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Tranh chấp bên ngoài: hợp đồng kinh tế, phát sinh nợ (khó đòi) với đối tác/khách hàng, …
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Tranh chấp với cơ quan nhà nước: thuế, bảo hiểm xã hội, …
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Tranh chấp liên quan đến đời tư cá nhân: hôn nhân gia đình, công an, tòa án,...
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Tuy nhiên, vì sự cạnh tranh khốc liệt trên thương trường, doanh nhân luôn phải ưu tiên tâm
+                            trí &amp; thời gian cho các chiến lược kinh doanh nhằm duy trì sự phát triển của công ty. Do
+                            đó,
+                            việc tự tìm hiểu các quy định hoặc văn bản pháp luật đối với các ông chủ là điều không thể.
+                        </li>
+                        <p>
+                            Vì thế <strong>dịch vụ luật sư riêng tư vấn pháp lý</strong> cho doanh nghiệp ra đời để giải
+                            quyết tất cả các
+                            vấn đề đến pháp lý liên quan tới doanh nghiệp, giúp doanh nghiệp theo dõi nắm bắt xử lý
+                            thông tin xuyên suốt, chủ động, đảm bảo tối ưu nhất quyền và lợi ích hợp pháp của chủ doanh
+                            nghiệp. <a href="https://nvcs.vn/luat-su-tu-van-thanh-lap-doanh-nghiep-221">Luật sư tư vấn
+                            doanh nghiệp
+                        </a> sẽ đảm bảo triệt tiêu mọi rủi ro pháp lý, với cương vị
+                            là luật sư, là người có vốn kiến thức và am hiểu tường tận pháp luật tường tận nên họ có thể
+                            lường trước những rủi ro pháp lý và ngăn chặn sự xuất hiện nguy cơ pháp lý cho cá nhân, tổ
+                            chức.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Dịch vụ luật sư riêng cho cá nhân</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Hiện nay, Cá nhân có nhu cầu tìm kiếm <strong>luật sư riêng</strong> để tư vấn pháp lý rất
+                            cao, hầu hết bao
+                            gồm (người nổi tiếng, người có thu nhập cao hoặc áp dụng đối với gia đình) là một trong
+                            những giải pháp quan trọng nhằm bảo vệ quyền và lợi ích tốt nhất, đảm bảo uy tín, bí mật và
+                            tránh những phiền phức không đáng có.
+                        </p>
+                        <p>
+                            Các công việc cụ thể của dịch vụ luật sư riêng cung cấp đối với cá nhân bao gồm:
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Tiếp nhận và xử lý thông tin, đưa ra lời khuyên, tư vấn kịp thời, nhanh chóng phù hợp với
+                            quy định pháp luật.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Tham gia, giải quyết các vấn đề, các vướng mắc pháp lý trên mọi lĩnh vực (dân sự, hôn nhân
+                            gia đình, lao động, đất đai, thừa kế…) của thân chủ với tư cách là luật sư (người bảo vệ
+                            quyền và lợi ích hợp pháp hoặc người ủy quyền)
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Soạn thảo hợp đồng, văn bản, chuẩn bị hồ sơ, gửi cơ quan chức năng và làm việc với cơ quan
+                            có thẩm quyền nhằm đảm bảo quyền lợi cho thân chủ (Viện kiểm sát nhân dân, Tòa án nhân dân,
+                            cơ quan cảnh sát điều tra,…)
+                        </li>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Các loại phí của dịch vụ luật sư tư vấn riêng</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <p>
+                            Đối với dịch vụ luật sư riêng, chi phí dịch vụ sẽ được phân thành hai loại:
+                        </p>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Phí tư vấn thường xuyên: được thanh toán định kỳ theo thỏa thuận của các bên.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Phí vụ việc: trong quá trình tư vấn/giải quyết vấn đề cho khách hàng, nếu có phát sinh vụ
+                            việc mới thì các bên sẽ tiến hành ký kết bằng một hợp đồng dịch vụ pháp lý khác (chi phí này
+                            đảm bảo sẽ thấp hơn so với những khách hàng vãng lai khác).
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Với gói dịch vụ “Luật sư riêng” của Công ty Luật NVCS, các vấn đề pháp lý của quý doanh
+                            nghiệp sẽ được giải quyết một cách nhanh nhất, an toàn và bí mật nhất.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Đội ngũ hơn 60 Luật sư và Cộng sự, NVCS sẽ cung cấp cho quý doanh nghiệp gói “Luật sư riêng”
+                            một năm với chi phí mỗi tháng <strong>500.000 VND</strong>.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Ngoài ra, Công ty Luật NVCS cam kết sẽ trả lời tất cả các vấn đề pháp lý liên quan đến doanh
+                            nghiệp, các ông chủ ngay lập tức, chậm nhất là 12 tiếng.
+                        </li>
+                        <li style="line-heght: 1.75; padding: 8px 0">
+                            Với dịch vụ “Luật sư riêng” của NVCS, doanh nghiệp luôn luôn được tư vấn các rủi ro pháp lý
+                            có thể xảy ra và cách thức hạn chế. Đặc biệt, các CEO sẽ được các Luật sư riêng tham vấn mọi
+                            vấn đề pháp lý liên quan đến cuộc đời mình.
+                        </li>
+                        <p style="line-heght: 1.75; padding: 15px 0; margin: 0;">
+                            Mọi thắc mắc liên hệ Nguyễn và Cộng Sự để được tư vấn chi tiết:
+                        </p>
+                        <p style="line-heght: 1.75; padding: 5px 0; margin: 0;">
+                            Hotline: <strong>0916 303 656</strong> (Gọi ngay cho Luật sư để được tư vấn miễn phí)
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </field>
+    </record>
+
+    <record id="product_product_vjp" model="product.template">
+        <field name="name">Giải pháp phần mềm CNTT</field>
+        <field name="standard_price">5000000</field>
+        <field name="list_price">5000000</field>
+        <field name="type">consu</field>
+        <field name="weight">0.01</field>
+        <field name="uom_id" ref="uom.product_uom_unit"/>
+        <field name="uom_po_id" ref="uom.product_uom_unit"/>
+        <!-- <field name="default_code">3B</field> -->
+        <field name="image_1920" type="base64"
+               file="ece/static/img/vjp.png"/>
+        <field name="company_id" ref="company_demo_vjp"/>
+        <field name="sale_line_warn">no-message</field>
+        <field name="is_published">True</field>
+        <!-- Description -->
+        <field name="website_description" type="xml">
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Lĩnh vực hoạt động</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li>
+                            Đào tạo và tư vấn tuyển dụng nhân lực IT
+                        </li>
+                        <li>
+                            Tư vấn, giới thiệu đối tác kinh doanh
+                        </li>
+                        <li>
+                            Tư vấn &amp; hỗ trợ dự án offshore
+                        </li>
+                    </div>
+                </div>
+            </section>
+            <section data-snippet-id="title" class="mt32" style="padding: 0 8px;">
+                <h2 class="o_page_header">Tầm nhìn và sứ mệnh</h2>
+            </section>
+            <section data-snippet-id="text-block" style="padding: 0 20px;">
+                <div class="row" style="width: 100%;">
+                    <div class="col-lg-12">
+                        <li style="padding: 10px 0">
+                            Hỗ trợ các dự án đang thiếu nhân lực trầm trọng của thị trường CNTT Nhật Bản bằng hình thức
+                            đào tạo, cung cấp nhân lực IT chất lượng cao.
+                        </li>
+                        <li style="padding: 10px 0">
+                            Qua đó, giúp nhanh chóng nâng cao trình độ kỹ thuật, kỹ năng cho nhân lực Việt Nam, đóng góp
+                            cho sự nghiệp phát triển của Việt Nam và Nhật Bản.
+                        </li>
+                    </div>
+                </div>
+            </section>
+            <div style="text-align: center; margin: 10px 0;">
+                <img src="/ece/static/img/MicrosoftTeams-image.png"
+                     style="width: 1054px; height: 456px; object-fit: contain; text-align: center"/>
+            </div>
+        </field>
+    </record>
+
+    <record id="extra_image_demo1" model="product.image">
+        <field name="image_1920" type="base64" file="ece/static/img/demo1.jpg"/>
+        <field name="product_tmpl_id" ref="product_product_hector_4"/>
+        <field name="name">demo1</field>
+    </record>
+    <record id="extra_image_demo2" model="product.image">
+        <field name="image_1920" type="base64" file="ece/static/img/demo2.jpg"/>
+        <field name="product_tmpl_id" ref="product_product_hector_4"/>
+        <field name="name">demo1</field>
+    </record>
+
+    <record id="extra_image_demo1" model="product.image">
+        <field name="image_1920" type="base64" file="ece/static/img/demo1.jpg"/>
+        <field name="product_tmpl_id" ref="product_product_sunshine_1"/>
+        <field name="name">demo2</field>
+    </record>
+    <record id="extra_image_demo2" model="product.image">
+        <field name="image_1920" type="base64" file="ece/static/img/demo2.jpg"/>
+        <field name="product_tmpl_id" ref="product_product_sunshine_1"/>
+        <field name="name">demo2</field>
+    </record>
+
+    <record id="extra_image_demo2" model="product.image">
+        <field name="image_1920" type="base64" file="ece/static/img/z2289986880050_b.jpg"/>
+        <field name="product_tmpl_id" ref="product_product_sunshine_2"/>
+        <field name="name">demo1</field>
+    </record>
+
+    <record id="extra_image_demo3" model="product.image">
+        <field name="image_1920" type="base64"
+               file="ece/static/img/Hector-Sâm-phục-hồi-nhanh-sức-khỏe-cho-người-ốm-người-bệnh.jpg"/>
+        <field name="product_tmpl_id" ref="product_product_hector_1"/>
+        <field name="name">demo4</field>
+    </record>
+    <record id="extra_image_demo4" model="product.image">
+        <field name="image_1920" type="base64"
+               file="ece/static/img/Hector-Sâm-tăng-cường-sinh-lực-cho-người-chơi-thể-thao.jpg"/>
+        <field name="product_tmpl_id" ref="product_product_hector_1"/>
+        <field name="name">demo5</field>
+    </record>
+
+    <record id="extra_image_demo6" model="product.image">
+        <field name="image_1920" type="base64"
+               file="ece/static/img/Nước-Dông-trùng-hạ-thảo-Hector-Collagen.png"/>
+        <field name="product_tmpl_id" ref="product_product_hector_2"/>
+        <field name="name">demo6</field>
+    </record>
+
+    <record id="extra_image_demo7" model="product.image">
+        <field name="image_1920" type="base64"
+               file="ece/static/img/Dong-trung-ha-thao-hector-vien-nang.jpg"/>
+        <field name="product_tmpl_id" ref="product_product_hector_3"/>
+        <field name="name">demo7</field>
+    </record>
+
+    <record id="extra_image_demo8" model="product.image">
+        <field name="image_1920" type="base64"
+               file="ece/static/img/Dông-trùng-hạ-thảo-Hector-sợi-sấy.png"/>
+        <field name="product_tmpl_id" ref="product_product_hector_4"/>
+        <field name="name">demo8</field>
+    </record>
+
+</odoo>

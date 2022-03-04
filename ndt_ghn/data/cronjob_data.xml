@@ -1,0 +1,62 @@
+<odoo>
+    <record id="action_update_province_ghn_code_from_availabe_provines" model="ir.cron">
+        <field name="name">action_update_province_ghn_code_from_availabe_provines</field>
+        <field name="active">False</field> 
+        <field name="user_id" ref="base.user_root"/>
+        <field name="interval_number">1</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">1</field>
+        <field eval="False" name="doall"/>
+        <field ref="ndt_ghn.model_res_country_state" name="model_id"/>
+        <field name="state">code</field>
+        <field name="code">model.update_province_ghn_code_from_availabe_provines()</field>
+    </record>
+
+   
+
+    <record id="get_ghn_district_all_province" model="ir.cron">
+        <field name="name">get_ghn_district_all_province</field>
+        <field name="active">False</field> 
+        <field name="user_id" ref="base.user_root"/>
+        <field name="interval_number">1</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">1</field>
+        <field eval="False" name="doall"/>
+        <field ref="ndt_ghn.model_res_country_state" name="model_id"/>
+        <field name="state">code</field>
+        <field name="code">model.get_ghn_district_all_province()</field>
+    </record>
+
+
+    <record id="get_ghn_ward_all_district" model="ir.cron">
+        <field name="name">get_ghn_ward_all_district</field>
+        <field name="active">False</field> 
+        <field name="user_id" ref="base.user_root"/>
+        <field name="interval_number">1</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">1</field>
+        <field eval="False" name="doall"/>
+        <field ref="partner_vn_localization.model_res_country_district" name="model_id"/>
+        <field name="state">code</field>
+        <field name="code">model.get_ghn_ward_all_district()</field>
+    </record>
+    
+
+    <record id="xoa_truong_gnh_code_o_ward" model="ir.cron">
+        <field name="name">xoa_truong_gnh_code_o_ward</field>
+        <field name="active">False</field> 
+        <field name="user_id" ref="base.user_root"/>
+        <field name="interval_number">1</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">1</field>
+        <field eval="False" name="doall"/>
+        <!-- <field eval="'res.country.ward'" name="model"/> -->
+        <field ref="partner_vn_localization.model_res_country_ward" name="model_id"/>
+        <field name="state">code</field>
+        <field name="code">
+model.search([('ghn_code','!=',False)]).write({'ghn_code':False})      
+        </field>
+    </record>
+
+
+</odoo>

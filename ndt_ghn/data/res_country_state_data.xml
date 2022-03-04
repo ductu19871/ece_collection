@@ -1,0 +1,449 @@
+<odoo>
+	<data>
+		<record model="res.country.state" id="base.state_vn_VN-01">
+			<field name="code">VN-01</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">231</field>
+			<field name="ghn_province_id">264</field>
+			<field name="name">Lai Châu</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-02">
+			<field name="code">VN-02</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">20</field>
+			<field name="ghn_province_id">269</field>
+			<field name="name">Lào Cai</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-03">
+			<field name="code">VN-03</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">219</field>
+			<field name="ghn_province_id">227</field>
+			<field name="name">Hà Giang</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-04">
+			<field name="code">VN-04</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">26</field>
+			<field name="ghn_province_id">246</field>
+			<field name="name">Cao Bằng</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-05">
+			<field name="code">VN-05</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">22</field>
+			<field name="ghn_province_id">266</field>
+			<field name="name">Sơn La</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-06">
+			<field name="code">VN-06</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">29</field>
+			<field name="ghn_province_id">263</field>
+			<field name="name">Yên Bái</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-07">
+			<field name="code">VN-07</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">27</field>
+			<field name="ghn_province_id">228</field>
+			<field name="name">Tuyên Quang</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-09">
+			<field name="code">VN-09</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">25</field>
+			<field name="ghn_province_id">247</field>
+			<field name="name">Lạng Sơn</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-13">
+			<field name="code">VN-13</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">33</field>
+			<field name="ghn_province_id">230</field>
+			<field name="name">Quảng Ninh</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-14">
+			<field name="code">VN-14</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">218</field>
+			<field name="ghn_province_id">267</field>
+			<field name="name">Hòa Bình</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-18">
+			<field name="code">VN-18</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">30</field>
+			<field name="ghn_province_id">233</field>
+			<field name="name">Ninh Bình</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-20">
+			<field name="code">VN-20</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">36</field>
+			<field name="ghn_province_id">226</field>
+			<field name="name">Thái Bình</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-21">
+			<field name="code">VN-21</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">37</field>
+			<field name="ghn_province_id">234</field>
+			<field name="name">Thanh Hóa</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-22">
+			<field name="code">VN-22</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">38</field>
+			<field name="ghn_province_id">235</field>
+			<field name="name">Nghệ An</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-23">
+			<field name="code">VN-23</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">39</field>
+			<field name="ghn_province_id">236</field>
+			<field name="name">Hà Tĩnh</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-24">
+			<field name="code">VN-24</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">52</field>
+			<field name="ghn_province_id">237</field>
+			<field name="name">Quảng Bình</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-25">
+			<field name="code">VN-25</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">53</field>
+			<field name="ghn_province_id">238</field>
+			<field name="name">Quảng Trị</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-26">
+			<field name="code">VN-26</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">54</field>
+			<field name="ghn_province_id">223</field>
+			<field name="name">Thừa Thiên - Huế</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-27">
+			<field name="code">VN-27</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">510</field>
+			<field name="ghn_province_id">243</field>
+			<field name="name">Quảng Nam</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-28">
+			<field name="code">VN-28</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">60</field>
+			<field name="ghn_province_id">259</field>
+			<field name="name">Kon Tum</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-29">
+			<field name="code">VN-29</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">55</field>
+			<field name="ghn_province_id">242</field>
+			<field name="name">Quảng Ngãi</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-30">
+			<field name="code">VN-30</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">59</field>
+			<field name="ghn_province_id">207</field>
+			<field name="name">Gia Lai</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-31">
+			<field name="code">VN-31</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">56</field>
+			<field name="ghn_province_id">262</field>
+			<field name="name">Bình Định</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-32">
+			<field name="code">VN-32</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">57</field>
+			<field name="ghn_province_id">260</field>
+			<field name="name">Phú Yên</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-33">
+			<field name="code">VN-33</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">500</field>
+			<field name="ghn_province_id">210</field>
+			<field name="name">Đắk Lắk</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-34">
+			<field name="code">VN-34</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">58</field>
+			<field name="ghn_province_id">208</field>
+			<field name="name">Khánh Hòa</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-35">
+			<field name="code">VN-35</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">63</field>
+			<field name="ghn_province_id">209</field>
+			<field name="name">Lâm Đồng</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-36">
+			<field name="code">VN-36</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">68</field>
+			<field name="ghn_province_id">261</field>
+			<field name="name">Ninh Thuận</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-37">
+			<field name="code">VN-37</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">66</field>
+			<field name="ghn_province_id">240</field>
+			<field name="name">Tây Ninh</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-39">
+			<field name="code">VN-39</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">61</field>
+			<field name="ghn_province_id">204</field>
+			<field name="name">Đồng Nai</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-40">
+			<field name="code">VN-40</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">62</field>
+			<field name="ghn_province_id">258</field>
+			<field name="name">Bình Thuận</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-41">
+			<field name="code">VN-41</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">72</field>
+			<field name="ghn_province_id">211</field>
+			<field name="name">Long An</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-43">
+			<field name="code">VN-43</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">64</field>
+			<field name="ghn_province_id">206</field>
+			<field name="name">Bà Rịa - Vũng Tàu</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-44">
+			<field name="code">VN-44</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">76</field>
+			<field name="ghn_province_id">217</field>
+			<field name="name">An Giang</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-45">
+			<field name="code">VN-45</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">67</field>
+			<field name="ghn_province_id">216</field>
+			<field name="name">Đồng Tháp</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-46">
+			<field name="code">VN-46</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">73</field>
+			<field name="ghn_province_id">212</field>
+			<field name="name">Tiền Giang</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-47">
+			<field name="code">VN-47</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">77</field>
+			<field name="ghn_province_id">219</field>
+			<field name="name">Kiên Giang</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-49">
+			<field name="code">VN-49</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">70</field>
+			<field name="ghn_province_id">215</field>
+			<field name="name">Vĩnh Long</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-50">
+			<field name="code">VN-50</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">75</field>
+			<field name="ghn_province_id">213</field>
+			<field name="name">Bến Tre</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-51">
+			<field name="code">VN-51</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">74</field>
+			<field name="ghn_province_id">214</field>
+			<field name="name">Trà Vinh</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-52">
+			<field name="code">VN-52</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">79</field>
+			<field name="ghn_province_id">218</field>
+			<field name="name">Sóc Trăng</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-53">
+			<field name="code">VN-53</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">281</field>
+			<field name="ghn_province_id">245</field>
+			<field name="name">Bắc Kạn</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-54">
+			<field name="code">VN-54</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">240</field>
+			<field name="ghn_province_id">248</field>
+			<field name="name">Bắc Giang</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-55">
+			<field name="code">VN-55</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">781</field>
+			<field name="ghn_province_id">253</field>
+			<field name="name">Bạc Liêu</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-56">
+			<field name="code">VN-56</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">241</field>
+			<field name="ghn_province_id">249</field>
+			<field name="name">Bắc Ninh</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-57">
+			<field name="code">VN-57</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">065</field>
+			<field name="ghn_province_id">205</field>
+			<field name="name">Bình Dương</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-58">
+			<field name="code">VN-58</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">651</field>
+			<field name="ghn_province_id">239</field>
+			<field name="name">Bình Phước</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-59">
+			<field name="code">VN-59</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">780</field>
+			<field name="ghn_province_id">252</field>
+			<field name="name">Cà Mau</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-61">
+			<field name="code">VN-61</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">320</field>
+			<field name="ghn_province_id">225</field>
+			<field name="name">Hải Dương</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-63">
+			<field name="code">VN-63</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">351</field>
+			<field name="ghn_province_id">232</field>
+			<field name="name">Hà Nam</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-66">
+			<field name="code">VN-66</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">321</field>
+			<field name="ghn_province_id">268</field>
+			<field name="name">Hưng Yên</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-67">
+			<field name="code">VN-67</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">350</field>
+			<field name="ghn_province_id">231</field>
+			<field name="name">Nam Định</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-68">
+			<field name="code">VN-68</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">210</field>
+			<field name="ghn_province_id">229</field>
+			<field name="name">Phú Thọ</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-69">
+			<field name="code">VN-69</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">280</field>
+			<field name="ghn_province_id">244</field>
+			<field name="name">Thái Nguyên</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-70">
+			<field name="code">VN-70</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">211</field>
+			<field name="ghn_province_id">221</field>
+			<field name="name">Vĩnh Phúc</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-71">
+			<field name="code">VN-71</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">230</field>
+			<field name="ghn_province_id">265</field>
+			<field name="name">Điện Biên</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-72">
+			<field name="code">VN-72</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">501</field>
+			<field name="ghn_province_id">241</field>
+			<field name="name">Đắk Nông</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-73">
+			<field name="code">VN-73</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">711</field>
+			<field name="ghn_province_id">250</field>
+			<field name="name">Hậu Giang</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-CT">
+			<field name="code">VN-CT</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">710</field>
+			<field name="ghn_province_id">220</field>
+			<field name="name">TP Cần Thơ</field>
+			<field name="note">Cần Thơ</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-DN">
+			<field name="code">VN-DN</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">511</field>
+			<field name="ghn_province_id">203</field>
+			<field name="name">TP Đà Nẵng</field>
+			<field name="note">Đà Nẵng</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-HN">
+			<field name="code">VN-HN</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">4</field>
+			<field name="ghn_province_id">201</field>
+			<field name="name">Hà Nội</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-HP">
+			<field name="code">VN-HP</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">31</field>
+			<field name="ghn_province_id">224</field>
+			<field name="name">TP Hải Phòng</field>
+			<field name="note">Hải Phòng</field>
+		</record>
+		<record model="res.country.state" id="base.state_vn_VN-SG">
+			<field name="code">VN-SG</field>
+			<field name="country_id" ref="base.vn"/>
+			<field name="ghn_province_code">8</field>
+			<field name="ghn_province_id">202</field>
+			<field name="name">TP Hồ Chí Minh</field>
+			<field name="note">Hồ Chí Minh</field>
+		</record>
+	</data>
+</odoo>

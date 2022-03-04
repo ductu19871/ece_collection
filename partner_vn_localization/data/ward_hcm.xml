@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="0">
+		
+		<record id="ward_26734" model="res.country.ward">
+			<field name="name">Phường Tân Định</field>
+			<field name="code">26734</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_760"/>
+		</record>
+		<record id="ward_26737" model="res.country.ward">
+			<field name="name">Phường Đa Kao</field>
+			<field name="code">26737</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_760"/>
+		</record>
+		<record id="ward_26740" model="res.country.ward">
+			<field name="name">Phường Bến Nghé</field>
+			<field name="code">26740</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_760"/>
+		</record>
+		<record id="ward_26743" model="res.country.ward">
+			<field name="name">Phường Bến Thành</field>
+			<field name="code">26743</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_760"/>
+		</record>
+		<record id="ward_26746" model="res.country.ward">
+			<field name="name">Phường Nguyễn Thái Bình</field>
+			<field name="code">26746</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_760"/>
+		</record>
+		<record id="ward_26749" model="res.country.ward">
+			<field name="name">Phường Phạm Ngũ Lão</field>
+			<field name="code">26749</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_760"/>
+		</record>
+		<record id="ward_26752" model="res.country.ward">
+			<field name="name">Phường Cầu Ông Lãnh</field>
+			<field name="code">26752</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_760"/>
+		</record>
+		<record id="ward_26755" model="res.country.ward">
+			<field name="name">Phường Cô Giang</field>
+			<field name="code">26755</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_760"/>
+		</record>
+		<record id="ward_26758" model="res.country.ward">
+			<field name="name">Phường Nguyễn Cư Trinh</field>
+			<field name="code">26758</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_760"/>
+		</record>
+		<record id="ward_26761" model="res.country.ward">
+			<field name="name">Phường Cầu Kho</field>
+			<field name="code">26761</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_760"/>
+		</record>
+		<record id="ward_26764" model="res.country.ward">
+			<field name="name">Phường Thạnh Xuân</field>
+			<field name="code">26764</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_761"/>
+		</record>
+		<record id="ward_26767" model="res.country.ward">
+			<field name="name">Phường Thạnh Lộc</field>
+			<field name="code">26767</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_761"/>
+		</record>
+		<record id="ward_26770" model="res.country.ward">
+			<field name="name">Phường Hiệp Thành</field>
+			<field name="code">26770</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_761"/>
+		</record>
+		<record id="ward_26773" model="res.country.ward">
+			<field name="name">Phường Thới An</field>
+			<field name="code">26773</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_761"/>
+		</record>
+		<record id="ward_26776" model="res.country.ward">
+			<field name="name">Phường Tân Chánh Hiệp</field>
+			<field name="code">26776</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_761"/>
+		</record>
+		<record id="ward_26779" model="res.country.ward">
+			<field name="name">Phường An Phú Đông</field>
+			<field name="code">26779</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_761"/>
+		</record>
+		<record id="ward_26782" model="res.country.ward">
+			<field name="name">Phường Tân Thới Hiệp</field>
+			<field name="code">26782</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_761"/>
+		</record>
+		<record id="ward_26785" model="res.country.ward">
+			<field name="name">Phường Trung Mỹ Tây</field>
+			<field name="code">26785</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_761"/>
+		</record>
+		<record id="ward_26787" model="res.country.ward">
+			<field name="name">Phường Tân Hưng Thuận</field>
+			<field name="code">26787</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_761"/>
+		</record>
+		<record id="ward_26788" model="res.country.ward">
+			<field name="name">Phường Đông Hưng Thuận</field>
+			<field name="code">26788</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_761"/>
+		</record>
+		<record id="ward_26791" model="res.country.ward">
+			<field name="name">Phường Tân Thới Nhất</field>
+			<field name="code">26791</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_761"/>
+		</record>
+		<record id="ward_26794" model="res.country.ward">
+			<field name="name">Phường Linh Xuân</field>
+			<field name="code">26794</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26797" model="res.country.ward">
+			<field name="name">Phường Bình Chiểu</field>
+			<field name="code">26797</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26800" model="res.country.ward">
+			<field name="name">Phường Linh Trung</field>
+			<field name="code">26800</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26803" model="res.country.ward">
+			<field name="name">Phường Tam Bình</field>
+			<field name="code">26803</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26806" model="res.country.ward">
+			<field name="name">Phường Tam Phú</field>
+			<field name="code">26806</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26809" model="res.country.ward">
+			<field name="name">Phường Hiệp Bình Phước</field>
+			<field name="code">26809</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26812" model="res.country.ward">
+			<field name="name">Phường Hiệp Bình Chánh</field>
+			<field name="code">26812</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26815" model="res.country.ward">
+			<field name="name">Phường Linh Chiểu</field>
+			<field name="code">26815</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26818" model="res.country.ward">
+			<field name="name">Phường Linh Tây</field>
+			<field name="code">26818</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26821" model="res.country.ward">
+			<field name="name">Phường Linh Đông</field>
+			<field name="code">26821</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26824" model="res.country.ward">
+			<field name="name">Phường Bình Thọ</field>
+			<field name="code">26824</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26827" model="res.country.ward">
+			<field name="name">Phường Trường Thọ</field>
+			<field name="code">26827</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_762"/>
+		</record>
+		<record id="ward_26830" model="res.country.ward">
+			<field name="name">Phường Long Bình</field>
+			<field name="code">26830</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26833" model="res.country.ward">
+			<field name="name">Phường Long Thạnh Mỹ</field>
+			<field name="code">26833</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26836" model="res.country.ward">
+			<field name="name">Phường Tân Phú</field>
+			<field name="code">26836</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26839" model="res.country.ward">
+			<field name="name">Phường Hiệp Phú</field>
+			<field name="code">26839</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26842" model="res.country.ward">
+			<field name="name">Phường Tăng Nhơn Phú A</field>
+			<field name="code">26842</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26845" model="res.country.ward">
+			<field name="name">Phường Tăng Nhơn Phú B</field>
+			<field name="code">26845</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26848" model="res.country.ward">
+			<field name="name">Phường Phước Long B</field>
+			<field name="code">26848</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26851" model="res.country.ward">
+			<field name="name">Phường Phước Long A</field>
+			<field name="code">26851</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26854" model="res.country.ward">
+			<field name="name">Phường Trường Thạnh</field>
+			<field name="code">26854</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26857" model="res.country.ward">
+			<field name="name">Phường Long Phước</field>
+			<field name="code">26857</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26860" model="res.country.ward">
+			<field name="name">Phường Long Trường</field>
+			<field name="code">26860</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26863" model="res.country.ward">
+			<field name="name">Phường Phước Bình</field>
+			<field name="code">26863</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26866" model="res.country.ward">
+			<field name="name">Phường Phú Hữu</field>
+			<field name="code">26866</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_763"/>
+		</record>
+		<record id="ward_26869" model="res.country.ward">
+			<field name="name">Phường 15</field>
+			<field name="code">26869</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26872" model="res.country.ward">
+			<field name="name">Phường 13</field>
+			<field name="code">26872</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26875" model="res.country.ward">
+			<field name="name">Phường 17</field>
+			<field name="code">26875</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26876" model="res.country.ward">
+			<field name="name">Phường 6</field>
+			<field name="code">26876</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26878" model="res.country.ward">
+			<field name="name">Phường 16</field>
+			<field name="code">26878</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26881" model="res.country.ward">
+			<field name="name">Phường 12</field>
+			<field name="code">26881</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26882" model="res.country.ward">
+			<field name="name">Phường 14</field>
+			<field name="code">26882</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26884" model="res.country.ward">
+			<field name="name">Phường 10</field>
+			<field name="code">26884</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26887" model="res.country.ward">
+			<field name="name">Phường 05</field>
+			<field name="code">26887</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26890" model="res.country.ward">
+			<field name="name">Phường 07</field>
+			<field name="code">26890</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26893" model="res.country.ward">
+			<field name="name">Phường 04</field>
+			<field name="code">26893</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26896" model="res.country.ward">
+			<field name="name">Phường 01</field>
+			<field name="code">26896</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26897" model="res.country.ward">
+			<field name="name">Phường 9</field>
+			<field name="code">26897</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26898" model="res.country.ward">
+			<field name="name">Phường 8</field>
+			<field name="code">26898</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26899" model="res.country.ward">
+			<field name="name">Phường 11</field>
+			<field name="code">26899</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26902" model="res.country.ward">
+			<field name="name">Phường 03</field>
+			<field name="code">26902</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_764"/>
+		</record>
+		<record id="ward_26905" model="res.country.ward">
+			<field name="name">Phường 13</field>
+			<field name="code">26905</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26908" model="res.country.ward">
+			<field name="name">Phường 11</field>
+			<field name="code">26908</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26911" model="res.country.ward">
+			<field name="name">Phường 27</field>
+			<field name="code">26911</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26914" model="res.country.ward">
+			<field name="name">Phường 26</field>
+			<field name="code">26914</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26917" model="res.country.ward">
+			<field name="name">Phường 12</field>
+			<field name="code">26917</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26920" model="res.country.ward">
+			<field name="name">Phường 25</field>
+			<field name="code">26920</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26923" model="res.country.ward">
+			<field name="name">Phường 05</field>
+			<field name="code">26923</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26926" model="res.country.ward">
+			<field name="name">Phường 07</field>
+			<field name="code">26926</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26929" model="res.country.ward">
+			<field name="name">Phường 24</field>
+			<field name="code">26929</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26932" model="res.country.ward">
+			<field name="name">Phường 06</field>
+			<field name="code">26932</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26935" model="res.country.ward">
+			<field name="name">Phường 14</field>
+			<field name="code">26935</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26938" model="res.country.ward">
+			<field name="name">Phường 15</field>
+			<field name="code">26938</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26941" model="res.country.ward">
+			<field name="name">Phường 02</field>
+			<field name="code">26941</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26944" model="res.country.ward">
+			<field name="name">Phường 01</field>
+			<field name="code">26944</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26947" model="res.country.ward">
+			<field name="name">Phường 03</field>
+			<field name="code">26947</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26950" model="res.country.ward">
+			<field name="name">Phường 17</field>
+			<field name="code">26950</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26953" model="res.country.ward">
+			<field name="name">Phường 21</field>
+			<field name="code">26953</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26956" model="res.country.ward">
+			<field name="name">Phường 22</field>
+			<field name="code">26956</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26959" model="res.country.ward">
+			<field name="name">Phường 19</field>
+			<field name="code">26959</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26962" model="res.country.ward">
+			<field name="name">Phường 28</field>
+			<field name="code">26962</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_765"/>
+		</record>
+		<record id="ward_26965" model="res.country.ward">
+			<field name="name">Phường 02</field>
+			<field name="code">26965</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_26968" model="res.country.ward">
+			<field name="name">Phường 04</field>
+			<field name="code">26968</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_26971" model="res.country.ward">
+			<field name="name">Phường 12</field>
+			<field name="code">26971</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_26974" model="res.country.ward">
+			<field name="name">Phường 13</field>
+			<field name="code">26974</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_26977" model="res.country.ward">
+			<field name="name">Phường 01</field>
+			<field name="code">26977</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_26980" model="res.country.ward">
+			<field name="name">Phường 03</field>
+			<field name="code">26980</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_26983" model="res.country.ward">
+			<field name="name">Phường 11</field>
+			<field name="code">26983</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_26986" model="res.country.ward">
+			<field name="name">Phường 07</field>
+			<field name="code">26986</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_26989" model="res.country.ward">
+			<field name="name">Phường 05</field>
+			<field name="code">26989</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_26992" model="res.country.ward">
+			<field name="name">Phường 10</field>
+			<field name="code">26992</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_26995" model="res.country.ward">
+			<field name="name">Phường 06</field>
+			<field name="code">26995</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_26998" model="res.country.ward">
+			<field name="name">Phường 08</field>
+			<field name="code">26998</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_27001" model="res.country.ward">
+			<field name="name">Phường 09</field>
+			<field name="code">27001</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_27004" model="res.country.ward">
+			<field name="name">Phường 14</field>
+			<field name="code">27004</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_27007" model="res.country.ward">
+			<field name="name">Phường 15</field>
+			<field name="code">27007</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_766"/>
+		</record>
+		<record id="ward_27010" model="res.country.ward">
+			<field name="name">Phường Tân Sơn Nhì</field>
+			<field name="code">27010</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_767"/>
+		</record>
+		<record id="ward_27013" model="res.country.ward">
+			<field name="name">Phường Tây Thạnh</field>
+			<field name="code">27013</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_767"/>
+		</record>
+		<record id="ward_27016" model="res.country.ward">
+			<field name="name">Phường Sơn Kỳ</field>
+			<field name="code">27016</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_767"/>
+		</record>
+		<record id="ward_27019" model="res.country.ward">
+			<field name="name">Phường Tân Quý</field>
+			<field name="code">27019</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_767"/>
+		</record>
+		<record id="ward_27022" model="res.country.ward">
+			<field name="name">Phường Tân Thành</field>
+			<field name="code">27022</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_767"/>
+		</record>
+		<record id="ward_27025" model="res.country.ward">
+			<field name="name">Phường Phú Thọ Hòa</field>
+			<field name="code">27025</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_767"/>
+		</record>
+		<record id="ward_27028" model="res.country.ward">
+			<field name="name">Phường Phú Thạnh</field>
+			<field name="code">27028</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_767"/>
+		</record>
+		<record id="ward_27031" model="res.country.ward">
+			<field name="name">Phường Phú Trung</field>
+			<field name="code">27031</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_767"/>
+		</record>
+		<record id="ward_27034" model="res.country.ward">
+			<field name="name">Phường Hòa Thạnh</field>
+			<field name="code">27034</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_767"/>
+		</record>
+		<record id="ward_27037" model="res.country.ward">
+			<field name="name">Phường Hiệp Tân</field>
+			<field name="code">27037</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_767"/>
+		</record>
+		<record id="ward_27040" model="res.country.ward">
+			<field name="name">Phường Tân Thới Hòa</field>
+			<field name="code">27040</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_767"/>
+		</record>
+		<record id="ward_27043" model="res.country.ward">
+			<field name="name">Phường 04</field>
+			<field name="code">27043</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27046" model="res.country.ward">
+			<field name="name">Phường 05</field>
+			<field name="code">27046</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27049" model="res.country.ward">
+			<field name="name">Phường 09</field>
+			<field name="code">27049</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27052" model="res.country.ward">
+			<field name="name">Phường 07</field>
+			<field name="code">27052</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27055" model="res.country.ward">
+			<field name="name">Phường 03</field>
+			<field name="code">27055</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27058" model="res.country.ward">
+			<field name="name">Phường 01</field>
+			<field name="code">27058</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27061" model="res.country.ward">
+			<field name="name">Phường 02</field>
+			<field name="code">27061</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27064" model="res.country.ward">
+			<field name="name">Phường 08</field>
+			<field name="code">27064</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27067" model="res.country.ward">
+			<field name="name">Phường 15</field>
+			<field name="code">27067</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27070" model="res.country.ward">
+			<field name="name">Phường 10</field>
+			<field name="code">27070</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27073" model="res.country.ward">
+			<field name="name">Phường 11</field>
+			<field name="code">27073</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27076" model="res.country.ward">
+			<field name="name">Phường 17</field>
+			<field name="code">27076</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27079" model="res.country.ward">
+			<field name="name">Phường 14</field>
+			<field name="code">27079</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27082" model="res.country.ward">
+			<field name="name">Phường 12</field>
+			<field name="code">27082</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27085" model="res.country.ward">
+			<field name="name">Phường 13</field>
+			<field name="code">27085</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_768"/>
+		</record>
+		<record id="ward_27088" model="res.country.ward">
+			<field name="name">Phường Thảo Điền</field>
+			<field name="code">27088</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_769"/>
+		</record>
+		<record id="ward_27091" model="res.country.ward">
+			<field name="name">Phường An Phú</field>
+			<field name="code">27091</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_769"/>
+		</record>
+		<record id="ward_27094" model="res.country.ward">
+			<field name="name">Phường Bình An</field>
+			<field name="code">27094</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_769"/>
+		</record>
+		<record id="ward_27097" model="res.country.ward">
+			<field name="name">Phường Bình Trưng Đông</field>
+			<field name="code">27097</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_769"/>
+		</record>
+		<record id="ward_27100" model="res.country.ward">
+			<field name="name">Phường Bình Trưng Tây</field>
+			<field name="code">27100</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_769"/>
+		</record>
+		<record id="ward_27103" model="res.country.ward">
+			<field name="name">Phường Bình Khánh</field>
+			<field name="code">27103</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_769"/>
+		</record>
+		<record id="ward_27106" model="res.country.ward">
+			<field name="name">Phường An Khánh</field>
+			<field name="code">27106</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_769"/>
+		</record>
+		<record id="ward_27109" model="res.country.ward">
+			<field name="name">Phường Cát Lái</field>
+			<field name="code">27109</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_769"/>
+		</record>
+		<record id="ward_27112" model="res.country.ward">
+			<field name="name">Phường Thạnh Mỹ Lợi</field>
+			<field name="code">27112</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_769"/>
+		</record>
+		<record id="ward_27115" model="res.country.ward">
+			<field name="name">Phường An Lợi Đông</field>
+			<field name="code">27115</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_769"/>
+		</record>
+		<record id="ward_27118" model="res.country.ward">
+			<field name="name">Phường Thủ Thiêm</field>
+			<field name="code">27118</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_769"/>
+		</record>
+		<record id="ward_27121" model="res.country.ward">
+			<field name="name">Phường 08</field>
+			<field name="code">27121</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27124" model="res.country.ward">
+			<field name="name">Phường 07</field>
+			<field name="code">27124</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27127" model="res.country.ward">
+			<field name="name">Phường 14</field>
+			<field name="code">27127</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27130" model="res.country.ward">
+			<field name="name">Phường 12</field>
+			<field name="code">27130</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27133" model="res.country.ward">
+			<field name="name">Phường 11</field>
+			<field name="code">27133</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27136" model="res.country.ward">
+			<field name="name">Phường 13</field>
+			<field name="code">27136</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27139" model="res.country.ward">
+			<field name="name">Phường 06</field>
+			<field name="code">27139</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27142" model="res.country.ward">
+			<field name="name">Phường 09</field>
+			<field name="code">27142</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27145" model="res.country.ward">
+			<field name="name">Phường 10</field>
+			<field name="code">27145</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27148" model="res.country.ward">
+			<field name="name">Phường 04</field>
+			<field name="code">27148</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27151" model="res.country.ward">
+			<field name="name">Phường 05</field>
+			<field name="code">27151</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27154" model="res.country.ward">
+			<field name="name">Phường 03</field>
+			<field name="code">27154</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27157" model="res.country.ward">
+			<field name="name">Phường 02</field>
+			<field name="code">27157</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27160" model="res.country.ward">
+			<field name="name">Phường 01</field>
+			<field name="code">27160</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_770"/>
+		</record>
+		<record id="ward_27163" model="res.country.ward">
+			<field name="name">Phường 15</field>
+			<field name="code">27163</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27166" model="res.country.ward">
+			<field name="name">Phường 13</field>
+			<field name="code">27166</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27169" model="res.country.ward">
+			<field name="name">Phường 14</field>
+			<field name="code">27169</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27172" model="res.country.ward">
+			<field name="name">Phường 12</field>
+			<field name="code">27172</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27175" model="res.country.ward">
+			<field name="name">Phường 11</field>
+			<field name="code">27175</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27178" model="res.country.ward">
+			<field name="name">Phường 10</field>
+			<field name="code">27178</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27181" model="res.country.ward">
+			<field name="name">Phường 09</field>
+			<field name="code">27181</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27184" model="res.country.ward">
+			<field name="name">Phường 01</field>
+			<field name="code">27184</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27187" model="res.country.ward">
+			<field name="name">Phường 08</field>
+			<field name="code">27187</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27190" model="res.country.ward">
+			<field name="name">Phường 02</field>
+			<field name="code">27190</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27193" model="res.country.ward">
+			<field name="name">Phường 04</field>
+			<field name="code">27193</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27196" model="res.country.ward">
+			<field name="name">Phường 07</field>
+			<field name="code">27196</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27199" model="res.country.ward">
+			<field name="name">Phường 05</field>
+			<field name="code">27199</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27202" model="res.country.ward">
+			<field name="name">Phường 06</field>
+			<field name="code">27202</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27205" model="res.country.ward">
+			<field name="name">Phường 03</field>
+			<field name="code">27205</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_771"/>
+		</record>
+		<record id="ward_27208" model="res.country.ward">
+			<field name="name">Phường 15</field>
+			<field name="code">27208</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27211" model="res.country.ward">
+			<field name="name">Phường 05</field>
+			<field name="code">27211</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27214" model="res.country.ward">
+			<field name="name">Phường 14</field>
+			<field name="code">27214</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27217" model="res.country.ward">
+			<field name="name">Phường 11</field>
+			<field name="code">27217</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27220" model="res.country.ward">
+			<field name="name">Phường 03</field>
+			<field name="code">27220</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27223" model="res.country.ward">
+			<field name="name">Phường 10</field>
+			<field name="code">27223</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27226" model="res.country.ward">
+			<field name="name">Phường 13</field>
+			<field name="code">27226</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27229" model="res.country.ward">
+			<field name="name">Phường 08</field>
+			<field name="code">27229</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27232" model="res.country.ward">
+			<field name="name">Phường 09</field>
+			<field name="code">27232</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27235" model="res.country.ward">
+			<field name="name">Phường 12</field>
+			<field name="code">27235</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27238" model="res.country.ward">
+			<field name="name">Phường 07</field>
+			<field name="code">27238</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27241" model="res.country.ward">
+			<field name="name">Phường 06</field>
+			<field name="code">27241</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27244" model="res.country.ward">
+			<field name="name">Phường 04</field>
+			<field name="code">27244</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27247" model="res.country.ward">
+			<field name="name">Phường 01</field>
+			<field name="code">27247</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27250" model="res.country.ward">
+			<field name="name">Phường 02</field>
+			<field name="code">27250</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27253" model="res.country.ward">
+			<field name="name">Phường 16</field>
+			<field name="code">27253</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_772"/>
+		</record>
+		<record id="ward_27256" model="res.country.ward">
+			<field name="name">Phường 12</field>
+			<field name="code">27256</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27259" model="res.country.ward">
+			<field name="name">Phường 13</field>
+			<field name="code">27259</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27262" model="res.country.ward">
+			<field name="name">Phường 09</field>
+			<field name="code">27262</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27265" model="res.country.ward">
+			<field name="name">Phường 06</field>
+			<field name="code">27265</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27268" model="res.country.ward">
+			<field name="name">Phường 08</field>
+			<field name="code">27268</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27271" model="res.country.ward">
+			<field name="name">Phường 10</field>
+			<field name="code">27271</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27274" model="res.country.ward">
+			<field name="name">Phường 05</field>
+			<field name="code">27274</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27277" model="res.country.ward">
+			<field name="name">Phường 18</field>
+			<field name="code">27277</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27280" model="res.country.ward">
+			<field name="name">Phường 14</field>
+			<field name="code">27280</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27283" model="res.country.ward">
+			<field name="name">Phường 04</field>
+			<field name="code">27283</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27286" model="res.country.ward">
+			<field name="name">Phường 03</field>
+			<field name="code">27286</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27289" model="res.country.ward">
+			<field name="name">Phường 16</field>
+			<field name="code">27289</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27292" model="res.country.ward">
+			<field name="name">Phường 02</field>
+			<field name="code">27292</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27295" model="res.country.ward">
+			<field name="name">Phường 15</field>
+			<field name="code">27295</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27298" model="res.country.ward">
+			<field name="name">Phường 01</field>
+			<field name="code">27298</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_773"/>
+		</record>
+		<record id="ward_27301" model="res.country.ward">
+			<field name="name">Phường 04</field>
+			<field name="code">27301</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27304" model="res.country.ward">
+			<field name="name">Phường 09</field>
+			<field name="code">27304</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27307" model="res.country.ward">
+			<field name="name">Phường 03</field>
+			<field name="code">27307</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27310" model="res.country.ward">
+			<field name="name">Phường 12</field>
+			<field name="code">27310</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27313" model="res.country.ward">
+			<field name="name">Phường 02</field>
+			<field name="code">27313</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27316" model="res.country.ward">
+			<field name="name">Phường 08</field>
+			<field name="code">27316</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27319" model="res.country.ward">
+			<field name="name">Phường 15</field>
+			<field name="code">27319</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27322" model="res.country.ward">
+			<field name="name">Phường 07</field>
+			<field name="code">27322</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27325" model="res.country.ward">
+			<field name="name">Phường 01</field>
+			<field name="code">27325</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27328" model="res.country.ward">
+			<field name="name">Phường 11</field>
+			<field name="code">27328</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27331" model="res.country.ward">
+			<field name="name">Phường 14</field>
+			<field name="code">27331</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27334" model="res.country.ward">
+			<field name="name">Phường 05</field>
+			<field name="code">27334</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27337" model="res.country.ward">
+			<field name="name">Phường 06</field>
+			<field name="code">27337</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27340" model="res.country.ward">
+			<field name="name">Phường 10</field>
+			<field name="code">27340</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27343" model="res.country.ward">
+			<field name="name">Phường 13</field>
+			<field name="code">27343</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_774"/>
+		</record>
+		<record id="ward_27346" model="res.country.ward">
+			<field name="name">Phường 14</field>
+			<field name="code">27346</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27349" model="res.country.ward">
+			<field name="name">Phường 13</field>
+			<field name="code">27349</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27352" model="res.country.ward">
+			<field name="name">Phường 09</field>
+			<field name="code">27352</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27355" model="res.country.ward">
+			<field name="name">Phường 06</field>
+			<field name="code">27355</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27358" model="res.country.ward">
+			<field name="name">Phường 12</field>
+			<field name="code">27358</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27361" model="res.country.ward">
+			<field name="name">Phường 05</field>
+			<field name="code">27361</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27364" model="res.country.ward">
+			<field name="name">Phường 11</field>
+			<field name="code">27364</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27367" model="res.country.ward">
+			<field name="name">Phường 02</field>
+			<field name="code">27367</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27370" model="res.country.ward">
+			<field name="name">Phường 01</field>
+			<field name="code">27370</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27373" model="res.country.ward">
+			<field name="name">Phường 04</field>
+			<field name="code">27373</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27376" model="res.country.ward">
+			<field name="name">Phường 08</field>
+			<field name="code">27376</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27379" model="res.country.ward">
+			<field name="name">Phường 03</field>
+			<field name="code">27379</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27382" model="res.country.ward">
+			<field name="name">Phường 07</field>
+			<field name="code">27382</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27385" model="res.country.ward">
+			<field name="name">Phường 10</field>
+			<field name="code">27385</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_775"/>
+		</record>
+		<record id="ward_27388" model="res.country.ward">
+			<field name="name">Phường 08</field>
+			<field name="code">27388</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27391" model="res.country.ward">
+			<field name="name">Phường 02</field>
+			<field name="code">27391</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27394" model="res.country.ward">
+			<field name="name">Phường 01</field>
+			<field name="code">27394</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27397" model="res.country.ward">
+			<field name="name">Phường 03</field>
+			<field name="code">27397</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27400" model="res.country.ward">
+			<field name="name">Phường 11</field>
+			<field name="code">27400</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27403" model="res.country.ward">
+			<field name="name">Phường 09</field>
+			<field name="code">27403</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27406" model="res.country.ward">
+			<field name="name">Phường 10</field>
+			<field name="code">27406</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27409" model="res.country.ward">
+			<field name="name">Phường 04</field>
+			<field name="code">27409</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27412" model="res.country.ward">
+			<field name="name">Phường 13</field>
+			<field name="code">27412</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27415" model="res.country.ward">
+			<field name="name">Phường 12</field>
+			<field name="code">27415</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27418" model="res.country.ward">
+			<field name="name">Phường 05</field>
+			<field name="code">27418</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27421" model="res.country.ward">
+			<field name="name">Phường 14</field>
+			<field name="code">27421</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27424" model="res.country.ward">
+			<field name="name">Phường 06</field>
+			<field name="code">27424</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27427" model="res.country.ward">
+			<field name="name">Phường 15</field>
+			<field name="code">27427</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27430" model="res.country.ward">
+			<field name="name">Phường 16</field>
+			<field name="code">27430</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27433" model="res.country.ward">
+			<field name="name">Phường 07</field>
+			<field name="code">27433</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_776"/>
+		</record>
+		<record id="ward_27436" model="res.country.ward">
+			<field name="name">Phường Bình Hưng Hòa</field>
+			<field name="code">27436</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_777"/>
+		</record>
+		<record id="ward_27439" model="res.country.ward">
+			<field name="name">Phường Bình Hưng Hoà A</field>
+			<field name="code">27439</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_777"/>
+		</record>
+		<record id="ward_27442" model="res.country.ward">
+			<field name="name">Phường Bình Hưng Hoà B</field>
+			<field name="code">27442</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_777"/>
+		</record>
+		<record id="ward_27445" model="res.country.ward">
+			<field name="name">Phường Bình Trị Đông</field>
+			<field name="code">27445</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_777"/>
+		</record>
+		<record id="ward_27448" model="res.country.ward">
+			<field name="name">Phường Bình Trị Đông A</field>
+			<field name="code">27448</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_777"/>
+		</record>
+		<record id="ward_27451" model="res.country.ward">
+			<field name="name">Phường Bình Trị Đông B</field>
+			<field name="code">27451</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_777"/>
+		</record>
+		<record id="ward_27454" model="res.country.ward">
+			<field name="name">Phường Tân Tạo</field>
+			<field name="code">27454</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_777"/>
+		</record>
+		<record id="ward_27457" model="res.country.ward">
+			<field name="name">Phường Tân Tạo A</field>
+			<field name="code">27457</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_777"/>
+		</record>
+		<record id="ward_27460" model="res.country.ward">
+			<field name="name">Phường  An Lạc</field>
+			<field name="code">27460</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_777"/>
+		</record>
+		<record id="ward_27463" model="res.country.ward">
+			<field name="name">Phường An Lạc A</field>
+			<field name="code">27463</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_777"/>
+		</record>
+		<record id="ward_27466" model="res.country.ward">
+			<field name="name">Phường Tân Thuận Đông</field>
+			<field name="code">27466</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_778"/>
+		</record>
+		<record id="ward_27469" model="res.country.ward">
+			<field name="name">Phường Tân Thuận Tây</field>
+			<field name="code">27469</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_778"/>
+		</record>
+		<record id="ward_27472" model="res.country.ward">
+			<field name="name">Phường Tân Kiểng</field>
+			<field name="code">27472</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_778"/>
+		</record>
+		<record id="ward_27475" model="res.country.ward">
+			<field name="name">Phường Tân Hưng</field>
+			<field name="code">27475</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_778"/>
+		</record>
+		<record id="ward_27478" model="res.country.ward">
+			<field name="name">Phường Bình Thuận</field>
+			<field name="code">27478</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_778"/>
+		</record>
+		<record id="ward_27481" model="res.country.ward">
+			<field name="name">Phường Tân Quy</field>
+			<field name="code">27481</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_778"/>
+		</record>
+		<record id="ward_27484" model="res.country.ward">
+			<field name="name">Phường Phú Thuận</field>
+			<field name="code">27484</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_778"/>
+		</record>
+		<record id="ward_27487" model="res.country.ward">
+			<field name="name">Phường Tân Phú</field>
+			<field name="code">27487</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_778"/>
+		</record>
+		<record id="ward_27490" model="res.country.ward">
+			<field name="name">Phường Tân Phong</field>
+			<field name="code">27490</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_778"/>
+		</record>
+		<record id="ward_27493" model="res.country.ward">
+			<field name="name">Phường Phú Mỹ</field>
+			<field name="code">27493</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_778"/>
+		</record>
+		<record id="ward_27496" model="res.country.ward">
+			<field name="name">Thị trấn Củ Chi</field>
+			<field name="code">27496</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27499" model="res.country.ward">
+			<field name="name">Xã Phú Mỹ Hưng</field>
+			<field name="code">27499</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27502" model="res.country.ward">
+			<field name="name">Xã An Phú</field>
+			<field name="code">27502</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27505" model="res.country.ward">
+			<field name="name">Xã Trung Lập Thượng</field>
+			<field name="code">27505</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27508" model="res.country.ward">
+			<field name="name">Xã An Nhơn Tây</field>
+			<field name="code">27508</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27511" model="res.country.ward">
+			<field name="name">Xã Nhuận Đức</field>
+			<field name="code">27511</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27514" model="res.country.ward">
+			<field name="name">Xã Phạm Văn Cội</field>
+			<field name="code">27514</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27517" model="res.country.ward">
+			<field name="name">Xã Phú Hòa Đông</field>
+			<field name="code">27517</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27520" model="res.country.ward">
+			<field name="name">Xã Trung Lập Hạ</field>
+			<field name="code">27520</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27523" model="res.country.ward">
+			<field name="name">Xã Trung An</field>
+			<field name="code">27523</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27526" model="res.country.ward">
+			<field name="name">Xã Phước Thạnh</field>
+			<field name="code">27526</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27529" model="res.country.ward">
+			<field name="name">Xã Phước Hiệp</field>
+			<field name="code">27529</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27532" model="res.country.ward">
+			<field name="name">Xã Tân An Hội</field>
+			<field name="code">27532</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27535" model="res.country.ward">
+			<field name="name">Xã Phước Vĩnh An</field>
+			<field name="code">27535</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27538" model="res.country.ward">
+			<field name="name">Xã Thái Mỹ</field>
+			<field name="code">27538</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27541" model="res.country.ward">
+			<field name="name">Xã Tân Thạnh Tây</field>
+			<field name="code">27541</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27544" model="res.country.ward">
+			<field name="name">Xã Hòa Phú</field>
+			<field name="code">27544</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27547" model="res.country.ward">
+			<field name="name">Xã Tân Thạnh Đông</field>
+			<field name="code">27547</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27550" model="res.country.ward">
+			<field name="name">Xã Bình Mỹ</field>
+			<field name="code">27550</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27553" model="res.country.ward">
+			<field name="name">Xã Tân Phú Trung</field>
+			<field name="code">27553</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27556" model="res.country.ward">
+			<field name="name">Xã Tân Thông Hội</field>
+			<field name="code">27556</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_783"/>
+		</record>
+		<record id="ward_27559" model="res.country.ward">
+			<field name="name">Thị trấn Hóc Môn</field>
+			<field name="code">27559</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27562" model="res.country.ward">
+			<field name="name">Xã Tân Hiệp</field>
+			<field name="code">27562</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27565" model="res.country.ward">
+			<field name="name">Xã Nhị Bình</field>
+			<field name="code">27565</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27568" model="res.country.ward">
+			<field name="name">Xã Đông Thạnh</field>
+			<field name="code">27568</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27571" model="res.country.ward">
+			<field name="name">Xã Tân Thới Nhì</field>
+			<field name="code">27571</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27574" model="res.country.ward">
+			<field name="name">Xã Thới Tam Thôn</field>
+			<field name="code">27574</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27577" model="res.country.ward">
+			<field name="name">Xã Xuân Thới Sơn</field>
+			<field name="code">27577</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27580" model="res.country.ward">
+			<field name="name">Xã Tân Xuân</field>
+			<field name="code">27580</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27583" model="res.country.ward">
+			<field name="name">Xã Xuân Thới Đông</field>
+			<field name="code">27583</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27586" model="res.country.ward">
+			<field name="name">Xã Trung Chánh</field>
+			<field name="code">27586</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27589" model="res.country.ward">
+			<field name="name">Xã Xuân Thới Thượng</field>
+			<field name="code">27589</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27592" model="res.country.ward">
+			<field name="name">Xã Bà Điểm</field>
+			<field name="code">27592</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_784"/>
+		</record>
+		<record id="ward_27595" model="res.country.ward">
+			<field name="name">Thị trấn Tân Túc</field>
+			<field name="code">27595</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27598" model="res.country.ward">
+			<field name="name">Xã Phạm Văn Hai</field>
+			<field name="code">27598</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27601" model="res.country.ward">
+			<field name="name">Xã Vĩnh Lộc A</field>
+			<field name="code">27601</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27604" model="res.country.ward">
+			<field name="name">Xã Vĩnh Lộc B</field>
+			<field name="code">27604</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27607" model="res.country.ward">
+			<field name="name">Xã Bình Lợi</field>
+			<field name="code">27607</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27610" model="res.country.ward">
+			<field name="name">Xã Lê Minh Xuân</field>
+			<field name="code">27610</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27613" model="res.country.ward">
+			<field name="name">Xã Tân Nhựt</field>
+			<field name="code">27613</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27616" model="res.country.ward">
+			<field name="name">Xã Tân Kiên</field>
+			<field name="code">27616</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27619" model="res.country.ward">
+			<field name="name">Xã Bình Hưng</field>
+			<field name="code">27619</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27622" model="res.country.ward">
+			<field name="name">Xã Phong Phú</field>
+			<field name="code">27622</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27625" model="res.country.ward">
+			<field name="name">Xã An Phú Tây</field>
+			<field name="code">27625</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27628" model="res.country.ward">
+			<field name="name">Xã Hưng Long</field>
+			<field name="code">27628</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27631" model="res.country.ward">
+			<field name="name">Xã Đa Phước</field>
+			<field name="code">27631</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27634" model="res.country.ward">
+			<field name="name">Xã Tân Quý Tây</field>
+			<field name="code">27634</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27637" model="res.country.ward">
+			<field name="name">Xã Bình Chánh</field>
+			<field name="code">27637</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27640" model="res.country.ward">
+			<field name="name">Xã Quy Đức</field>
+			<field name="code">27640</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_785"/>
+		</record>
+		<record id="ward_27643" model="res.country.ward">
+			<field name="name">Thị trấn Nhà Bè</field>
+			<field name="code">27643</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_786"/>
+		</record>
+		<record id="ward_27646" model="res.country.ward">
+			<field name="name">Xã Phước Kiển</field>
+			<field name="code">27646</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_786"/>
+		</record>
+		<record id="ward_27649" model="res.country.ward">
+			<field name="name">Xã Phước Lộc</field>
+			<field name="code">27649</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_786"/>
+		</record>
+		<record id="ward_27652" model="res.country.ward">
+			<field name="name">Xã Nhơn Đức</field>
+			<field name="code">27652</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_786"/>
+		</record>
+		<record id="ward_27655" model="res.country.ward">
+			<field name="name">Xã Phú Xuân</field>
+			<field name="code">27655</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_786"/>
+		</record>
+		<record id="ward_27658" model="res.country.ward">
+			<field name="name">Xã Long Thới</field>
+			<field name="code">27658</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_786"/>
+		</record>
+		<record id="ward_27661" model="res.country.ward">
+			<field name="name">Xã Hiệp Phước</field>
+			<field name="code">27661</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_786"/>
+		</record>
+		<record id="ward_27664" model="res.country.ward">
+			<field name="name">Thị trấn Cần Thạnh</field>
+			<field name="code">27664</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_787"/>
+		</record>
+		<record id="ward_27667" model="res.country.ward">
+			<field name="name">Xã Bình Khánh</field>
+			<field name="code">27667</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_787"/>
+		</record>
+		<record id="ward_27670" model="res.country.ward">
+			<field name="name">Xã Tam Thôn Hiệp</field>
+			<field name="code">27670</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_787"/>
+		</record>
+		<record id="ward_27673" model="res.country.ward">
+			<field name="name">Xã An Thới Đông</field>
+			<field name="code">27673</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_787"/>
+		</record>
+		<record id="ward_27676" model="res.country.ward">
+			<field name="name">Xã Thạnh An</field>
+			<field name="code">27676</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_787"/>
+		</record>
+		<record id="ward_27679" model="res.country.ward">
+			<field name="name">Xã Long Hòa</field>
+			<field name="code">27679</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_787"/>
+		</record>
+		<record id="ward_27682" model="res.country.ward">
+			<field name="name">Xã Lý Nhơn</field>
+			<field name="code">27682</field>
+			<field name="active" eval="True"/>
+			<field name="district_id" ref="district_787"/>
+		</record>
+
+		
+	</data>
+</odoo>

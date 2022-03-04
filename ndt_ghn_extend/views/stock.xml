@@ -1,0 +1,92 @@
+<odoo>
+    <!-- <record model="ir.ui.view" id="vpicktree_inherit">
+        <field name="name">vpicktree</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.vpicktree"/>
+        <field name="arch" type="xml">
+            <field name="location_dest_id" position="before">
+                <field name="location_id" />
+                <field name="client_order_ref" />
+            </field>
+        </field>
+    </record> -->
+
+    <record model="ir.ui.view" id="view_picking_form">
+        <field name="name">view_picking_form</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form"/>
+        <field name="arch" type="xml">
+            <field name="carrier_id" position="replace">
+                <div>
+                    <button name="stock_order_shipping" string="Đặt hàng vận chuyển" type="object" attrs="{'invisible':['|',('delivery_type','!=','base_on_api'),('shipping_status','in',['ready_to_pick'])]}" class="oe_inline fa fa-arrow-right oe_link"/>
+                    <button name="stock_cancel_shipment" string="Hủy đơn hàng vận chuyển" 
+                        type="object" attrs="{'invisible':[('shipping_status','in',['cancel',False])]}" class="oe_inline fa fa-arrow-right oe_link" />
+                    <button name="stock_update_shipment" string="Cập nhật vận chuyển"
+                        type="object" attrs="{'invisible':[('shipping_status','not in',['ready_to_pick'])]}"
+                        class="oe_inline fa fa-arrow-right oe_link" />
+                    <button name="stock_get_shipping_order_status" 
+                        attrs="{'invisible':[('shipping_status','in',['cancel',False])]}"
+                        string="Lấy trạng thái đơn vận chuyển" type="object" class="oe_inline fa fa-arrow-right oe_link"/>
+                </div>
+                <field name="carrier_id" />
+                <field name="delivery_type" string="Loại vận chuyển" />
+                <field name="delivery_so_line_id" invisible="1" />
+                <field name="carrier_tracking_url"/>
+                <field name="shipping_status"/>
+                <field name="delivery_purchase_id"/>
+                <field name="currency_id" invisible="1" />
+                <field name="delivery_amount_total" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                <field name="carrier_order_info" />
+                <field name="carrier_update_info" />
+            </field>
+
+            <!-- <field name="weight" position="replace">
+            </field> -->
+            <field name="weight" position="replace">
+                <field name="height" />
+                <field name="length" />
+                <field name="width" />
+                <field name="adjustment_weight" />
+            </field>
+            <xpath expr="//label[@for='weight']"  position="replace">
+            </xpath>
+            <!-- <field name="weight_uom_id" position="replace" /> -->
+            <!-- <label for="weight" string="Weight"/> -->
+        </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="view_warehouse">
+        <field name="name">stock.warehouse.form.inherit</field>
+        <field name="model">stock.warehouse</field>
+        <field name="inherit_id" ref="stock.view_warehouse"/>
+        <field name="arch" type="xml">
+            <!-- <xpath expr="//notebook" position="inside">
+                <notebook string="Vận chuyển">
+                    <group>
+                        <field name="ghn_shop_id" />
+                    </group>
+                </notebook>
+            </xpath> -->
+            <field name="partner_id" position="after">
+                <field name="ghn_shop_id" />
+            </field>
+
+        </field>
+    </record>
+
+    <!-- <record id="product_normal_form_view_inherit" model="ir.ui.view">
+        <field name="name">product_normal_form_view_inherit</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+            <group name="group_lots_and_weight" position="inside">
+                <field name="length" />
+                <field name="width" />
+                <field name="height" />
+            </group>
+        </field>
+    </record> -->
+
+
+</odoo>

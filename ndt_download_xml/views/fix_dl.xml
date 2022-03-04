@@ -1,0 +1,4 @@
+<odoo>
+    <menuitem id="fix_dl_xml_root" name="Fix download xml" parent="base.menu_custom" sequence="40"/>
+    <menuitem id="fix_dl_xml_menu" parent="fix_dl_xml_root" action="fix_dl_xml_action" sequence="1"/>
+</odoo>

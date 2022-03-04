@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- Viet Nam Province/City -->
+    
+    <record id="partner_vn_localization_district_form_view" model="ir.ui.view">
+        <field name="name">res.country.district.form</field>
+        <field name="model">res.country.district</field>
+        <field name="inherit_id" ref="partner_vn_localization.partner_vn_localization_district_form_view"></field>
+        <field name="arch" type="xml">
+            <field name="state_id" position="after">
+                <field name="ghn_district_code" />
+                <field name="ghn_district_id" />
+                <field name="char_json_wards_data" />
+                <field name="ward_ids" />
+            </field>
+        </field>
+    </record>
+    <record id="partner_vn_localization_district_tree_view_inherit1" model="ir.ui.view">
+        <field name="name">res.country.district.tree</field>
+        <field name="model">res.country.district</field>
+        <field name="inherit_id" ref="partner_vn_localization.partner_vn_localization_district_tree_view" />
+        <field name="arch" type="xml">
+            <field name="state_id" position="after">
+                <field name="ghn_district_code" />
+                <field name="ghn_district_id" />
+                <field name="is_done_ward" />
+            </field>
+        </field>
+    </record>
+    
+
+</odoo>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="payment_acquirer_transfer" model="payment.acquirer">
+        <field name="name">Tiền mặt</field>
+        <field name="provider">cash</field>
+        <field name="sequence">2</field>
+        <field name="view_template_id" ref="default_acquirer_button"/>
+        <field name="image_128" type="base64" file="payment_transfer/static/src/img/transfer_icon.png"/>
+        <field name="module_id" ref="base.module_payment_transfer"/>
+        <field name="pending_msg">&lt;i&gt;Pending&lt;/i&gt;... The order will be validated after the payment.</field>
+        <field name="description" type="html">
+            <p>
+                Provide instructions to customers so that they can pay their orders manually.
+            </p>
+        </field>
+    </record>
+
+    <!-- Form sau thì tự động post luôn -->
+<!-- 
+    <template id="default_acquirer_button">
+        <input type="hidden" name="data_set" t-att-data-action-url="tx_url"/>
+        <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+        <t t-if="return_url">
+            <input type="hidden" name="return_url" t-att-value="return_url"/>
+        </t>
+        <input type="hidden" name="reference" t-att-value="reference"/>
+        <input type="hidden" name="amount" t-att-value="amount"/>
+        <input type="hidden" name="currency" t-att-value="currency.name"/>
+    </template> -->
+
+    
+      <!-- <record id="payment_acquirer_vnpay_domestic" model="payment.acquirer">
+            <field name="name">Thẻ ATM Nội địa</field>
+
+            <field name="provider">vnpay</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="view_template_id" ref="vnpay_acquirer_button"/>
+           <field name="environment">prod</field>
+            <field name="pre_msg"><![CDATA[
+            <p></p>]]></field>
+            <field name="vnpay_website_code">TICTAG01</field>
+            <field name="vnpay_hash_secret">JXNMOMSAFRCPMLCWNXQRVCOZCARRMBBJ</field>
+            <field name="vnpay_type">DomesticBank</field>
+        </record> -->
+
+
+        <!-- <template id="vnpay_acquirer_button">
+			<div>
+                <input type="hidden" name="data_set" data-action-url="/payment/vnpay/render_pay" data-remove-me=""/>
+                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                <t t-if="return_url">
+                    <input type="hidden" name="return_url" t-att-value="return_url"/>
+                </t>
+                <input name="vnp_Version" t-att-value="vnp_Version" type="hidden" />
+                <input name="vnp_Command" t-att-value="vnp_Command" type="hidden" />
+                <input name="vnp_TmnCode" t-att-value="vnp_TmnCode" type="hidden" />
+                <input name="vnp_Amount" t-att-value="vnp_Amount" type="hidden" />
+                <input name="vnp_CreateDate" t-att-value="vnp_CreateDate" type="hidden" />
+                <input name="vnp_CurrCode" t-att-value="vnp_CurrCode" type="hidden" />
+                <input name="vnp_Locale" t-att-value="vnp_Locale" type="hidden" />
+                <input name="vnp_OrderInfo" t-att-value="vnp_OrderInfo" type="hidden" />
+                <input name="vnp_ReturnUrl" t-att-value="vnp_ReturnUrl" type="hidden" />
+                <input name="vnp_TxnRef" t-att-value="vnp_TxnRef" type="hidden" />
+                <input name="vnp_SecureHashType" t-att-value="vnp_SecureHashType" type="hidden" />
+                <input name="vnp_IpAddr" t-att-value="vnp_IpAddr" type="hidden" />
+                <input name="vnp_SecureHash" t-att-value="vnp_SecureHash" type="hidden" />
+                <input name="vnp_OrderType" t-att-value="vnp_OrderType" type="hidden" />
+            </div>
+		</template> -->
+
+
+</odoo>

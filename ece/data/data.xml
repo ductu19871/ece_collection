@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="0">
+
+        <record id="base.main_company" model="res.company">
+            <field name="name">CÔNG TY CỔ PHẦN VJP</field>
+            <field name="street">Gò Vấp</field>
+            <field name="city">Gò Vấp</field>
+            <field name="state_id" ref="base.state_vn_VN-SG"/>
+            <field name="country_id" ref="base.vn"/>
+            <field name="phone">0916022787</field>
+            <field name="email">ductu19871@gmail.com</field>
+            <field name="website">www.com</field>
+            <field name="vat">0303452460</field>
+            <field name="currency_id" ref="base.VND"/>
+            <field name="logo" type="base64" file="ece/static/description/logo.png"/>
+            <field name="favicon" type="base64" file="ece/static/description/logo.png"/>
+        </record>
+
+        <record id="company1" model="res.company">
+            <field name="name">company A</field>
+            <field name="parent_id" ref="base.main_company" />
+            <field name="ghn_shop_id">1295159</field>
+        </record>
+
+        <record id="company2" model="res.company">
+            <field name="name">company B</field>
+            <field name="parent_id" ref="base.main_company" />
+            <field name="ghn_shop_id">1329421</field>
+        </record>   
+
+        <record id="u1p_user" model="res.users">
+            <field name="name">u1p</field>
+            <field name="login">u1p</field>
+            <field name="password">1</field>
+            <field name="groups_id" eval="[(4,ref('base.group_portal'))]"/>
+            <field name="active" eval="True"/>
+            <!-- <field name="company_id" ref="company1" />
+            <field name="company_ids" eval="[(6,0,[ref('company1')])]" /> -->
+        </record>
+
+
+        <record id="u1_user" model="res.users">
+            <field name="name">u1e</field>
+            <field name="login">u1e</field>
+            <field name="password">1</field>
+            <field name="groups_id" eval="[(4,ref('base.group_system')),(4,ref('sales_team.group_sale_salesman_all_leads'))]"/>
+            <field name="active" eval="True"/>
+            <field name="company_id" ref="company1" />
+            <field name="company_ids" eval="[(6,0,[ref('company1')])]" />
+        </record>
+
+        <record id="u2_user" model="res.users">
+            <field name="name">u2e</field>
+            <field name="login">u2e</field>
+            <field name="password">1</field>
+            <field name="groups_id" eval="[(4,ref('base.group_system')),(4,ref('sales_team.group_sale_salesman_all_leads'))]"/>
+            <field name="active" eval="True"/>
+            <field name="company_id" ref="company2" />
+            <field name="company_ids" eval="[(6,0,[ref('company2')])]" />
+        </record>
+
+
+        <record id="u4_admin" model="res.users">
+            <field name="name">admin2</field>
+            <field name="login">admin2</field>
+            <field name="password">1</field>
+            <field name="groups_id" eval="[(4,ref('base.group_system')), (4,ref('sales_team.group_sale_salesman_all_leads'))]"/>
+            <field name="active" eval="True"/>
+            <field name="company_id" ref="company2" />
+            <field name="company_ids" eval="[(6,0,[ref('company1'),ref('company2')])]" />
+        </record>
+
+
+
+        <!-- <function model="ir.model.data" name="write">
+            <value eval="[ref('base.user_admin')]"/>
+            <value eval="{'noupdate': 'False'}"/>
+        </function> -->
+
+        <function model="ir.model.data" name="set_noupdate_false">
+            <value eval="'base.user_admin'"/>
+        </function>
+
+
+
+        <record id="base.user_admin" model="res.users">
+            <field name="company_ids" eval="[(4,ref('company1')),(4,ref('company2'))]" />
+        </record>
+
+
+
+        <record id="product_product_24" model="product.template">
+            <field name="name">minecraft 3 company B</field>
+            <field name="standard_price">2871.0</field>
+            <field name="list_price">2951.0</field>
+            <field name="type">consu</field>
+            <field name="weight">0.01</field>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="default_code">3B</field>
+            <field name="image_1920" type="base64" file="ece/static/img/png-clipart-minecraft-minecraft.png"/>
+            <field name="company_id" ref="company2"/>
+            <field name="sale_line_warn">no-message</field>
+            <field name="is_published">True</field>
+        </record>
+
+        <record id="product_product_24_1" model="product.template">
+            <field name="name">minecraft 4 company B</field>
+            <field name="standard_price">2871.0</field>
+            <field name="list_price">2951.0</field>
+            <field name="type">consu</field>
+            <field name="weight">0.01</field>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="default_code">4B</field>
+            <field name="image_1920" type="base64" file="ece/static/img/png-clipart-minecraft-minecraft.png"/>
+            <field name="company_id" ref="company2"/>
+            <field name="sale_line_warn">no-message</field>
+            <field name="is_published">True</field>
+        </record>
+
+
+        <record id="product_product_25" model="product.template">
+            <field name="name">minecraft 1 company A</field>
+            <field name="standard_price">2870.0</field>
+            <field name="list_price">2950.0</field>
+            <field name="type">consu</field>
+            <field name="weight">0.01</field>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="default_code">1A</field>
+            <field name="image_1920" type="base64" file="ece/static/img/png-clipart-minecraft-minecraft.png"/>
+            <field name="company_id" ref="company1"/>
+            <field name="sale_line_warn">no-message</field>
+            <field name="is_published">True</field>
+        </record>
+
+
+        <record id="product_product_26" model="product.product">
+            <field name="name">minecraft 2 company A</field>
+            <field name="standard_price">2870.0</field>
+            <field name="list_price">2950.0</field>
+            <field name="type">consu</field>
+            <field name="weight">0.01</field>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="default_code">2A</field>
+            <field name="image_1920" type="base64" file="ece/static/img/png-clipart-minecraft-minecraft.png"/>
+            <field name="company_id" ref="company1"/>
+            <field name="sale_line_warn">no-message</field>
+            <field name="is_published">True</field>
+        </record>
+
+        <record id="product_product_delivery_fix500" model="product.product">
+            <field name="name">Fix 500</field>
+            <field name="default_code">Delivery_007</field>
+            <field name="type">service</field>
+            <field name="categ_id" ref="delivery.product_category_deliveries"/>
+            <field name="sale_ok" eval="False"/>
+            <field name="purchase_ok" eval="False"/>
+            <field name="list_price">500</field>
+            <field name="invoice_policy">order</field>
+        </record>
+
+        <!-- <record id="fix_500_delivery_carrier" model="delivery.carrier">
+            <field name="name">Fix 500 delivery</field>
+            <field name="fixed_price">500</field>
+            <field name="free_over" eval="False"/>
+            <field name="amount">1000</field>
+            <field name="sequence">1</field>
+            <field name="delivery_type">fixed</field>
+            <field name="product_id" ref="product_product_delivery_fix500"/>
+            <field name="is_published">True</field>
+        </record> -->
+
+
+        <record id="product_product_delivery_fix1000" model="product.product">
+            <field name="name">Fix 1000</field>
+            <field name="default_code">Delivery_007</field>
+            <field name="type">service</field>
+            <field name="categ_id" ref="delivery.product_category_deliveries"/>
+            <field name="sale_ok" eval="False"/>
+            <field name="purchase_ok" eval="False"/>
+            <field name="list_price">500</field>
+            <field name="invoice_policy">order</field>
+        </record>
+
+            <!-- <record id="fix_1000_delivery_carrier" model="delivery.carrier">
+                <field name="name">Fix 1000 delivery</field>
+                <field name="fixed_price">1000</field>
+                <field name="free_over" eval="False"/>
+                <field name="amount">1000</field>
+                <field name="sequence">1</field>
+                <field name="delivery_type">fixed</field>
+                <field name="product_id" ref="product_product_delivery_fix1000"/>
+                <field name="is_published">True</field>
+            </record> -->
+
+
+
+
+
+        <function model="ir.model.data" name="set_noupdate_false">
+            <value eval="'delivery.free_delivery_carrier'"/>
+        </function>
+
+
+        <record id="delivery.free_delivery_carrier" model="delivery.carrier">
+            <field name="is_published">False</field>
+        </record>
+
+
+        <function model="ir.model.data" name="set_noupdate_false">
+            <value eval="'product.product_comp_rule'"/>
+        </function>
+
+        <record id="product.product_comp_rule" model="ir.rule">
+            <field name="name">Product multi-company</field>
+            <field name="model_id" ref="model_product_template"/>
+            <field name="domain_force"> ['|', ('company_id', 'child_of', company_ids), ('company_id', '=', False)]</field>
+        </record>
+        <!-- ############### -->
+
+        <function model="ir.model.fields" name="formbuilder_whitelist">
+            <value>res.partner</value>
+            <value eval="[
+                'district_id', 'ward_id'
+            ]"/>
+        </function>
+
+    </data>
+</odoo>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_frontend" inherit_id="website.assets_frontend" name="Shop">
+      <xpath expr="." position="inside">
+        <!-- <script type="text/javascript" src="/ece/static/src/js/payment_processing.js"></script> -->
+        <!-- <script type="text/javascript" src="/ece/static/src/js/address.js"></script> -->
+        <script type="text/javascript" src="/ece/static/src/js/website_sale_delivery.js"></script>
+        <link type="text/css" rel="stylesheet" href="/ece/static/src/scss/approve_report.scss" />
+      </xpath>
+    </template>
+
+</odoo>

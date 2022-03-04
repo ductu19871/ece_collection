@@ -1,0 +1,44 @@
+<odoo>
+        
+    <record model="ir.ui.view" id="view_order_form_inherit">
+        <field name="name">view_order_form</field>
+        <field name="model">sale.order</field>
+        <!-- <field name="inherit_id" ref="sale.view_order_form"/> -->
+        <field name="inherit_id" ref="delivery.view_order_form_with_carrier"/>
+        
+        <field name="arch" type="xml">
+            <!-- <xpath expr="//button[last()]" position="after">
+                <button name="calculate_dimension" string="Tính kích thước"
+                attrs="{'invisible':['|', '|', ('carrier_id','=',False),('state','not in',('draft','sent')),('delivery_so_line_id','!=',False) ]}"
+                class="oe_inline fa fa-arrow-right oe_link" type="object" 
+                />
+            </xpath> -->
+
+            <xpath expr="//button[last()]" position="after">
+                <button name="calculate_dimension" string="Tính kích thước"
+                class="oe_inline fa fa-arrow-right oe_link" type="object" 
+                />
+            </xpath>
+
+
+            <field name="picking_policy" position="after">
+                <field name="height"/>
+                <field name="length"/>
+                <field name="width"/>
+                <field name="weight" />
+                <field name="delivery_type" invisible="1" />
+                <!-- <field name="is_use_api_shipping"  /> -->
+                <!-- <field name="delivery_service_type_id" attrs="{'required':[('delivery_type','=','base_one_api')]}" domain="[('carrier_id','=',carrier_id)]"/> -->
+
+                <field name="delivery_service_type_id" attrs="{'required':[('delivery_type','=','base_one_api')]}" />
+
+                <field name="delivery_payment_type_id"/>
+                <field name="delivery_cod_amount" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                <field name="delivery_so_line_id"/>
+            </field>
+        </field>
+    </record>
+
+
+    
+</odoo>

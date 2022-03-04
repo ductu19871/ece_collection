@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="district_res_partner_form">
+        <field name="name">Res Partner Form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <field name="city" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field> 
+            <field name="state_id" position="after">
+                <!-- <field name="province_id" placeholder="Province" options="{'no_create_edit': True}"/> -->
+                <field name="district_id" placeholder="District" domain="[('state_id','=',state_id)]" options="{'no_create_edit': True}"/>
+                <field name="ward_id" placeholder="Ward" domain="[('district_id','=',district_id)]" options="{'no_create_edit': True}"/>
+            </field>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,80 @@
+<odoo>
+    <data>
+        
+        <record model="product.product" id ="giao_hang_nhanh_delivery">
+            <field name="name">Dịch vụ giao hàng nhanh</field>
+            <field name="type">service</field>
+            <field name="taxes_id" eval="[(5,0,0)]" />
+        </record>
+
+        <!-- <record model="res.partner.hcategory" id ="hcategory_carrier">
+            <field name="name">Nhóm vận chuyển</field>
+        </record> -->
+
+        <!-- <record model="res.partner" id ="giao_hang_nhanh">
+            <field name="name">Đối tác Giao hàng nhanh</field>
+            <field name="supplier">True</field>
+        </record> -->
+
+        <record model="delivery.carrier" id ="giao_hang_nhanh_delivery_carrier">
+            <field name="name">Giao hàng nhanh</field>
+            <field name="product_id" ref="giao_hang_nhanh_delivery"></field>
+            <!-- <field name = "is_use_api_shipping">1</field> -->
+            <field name="delivery_type">base_on_api</field>
+        </record>
+
+        <record model="ndt.delivery.service.type" id ="giao_hang_nhanh_delivery_carrier_type_1">
+            <field name="name">1.Express</field>
+            <field name="carrier_id" ref="giao_hang_nhanh_delivery_carrier"></field>
+            <field name="code">1</field>
+        </record>
+
+        <record model="ndt.delivery.service.type" id ="giao_hang_nhanh_delivery_carrier_type_2">
+            <field name="name">2.Standard</field>
+            <field name="carrier_id" ref="giao_hang_nhanh_delivery_carrier"></field>
+            <field name="code">2</field>
+        </record>
+
+        <record model="ndt.delivery.service.type" id ="giao_hang_nhanh_delivery_carrier_type_3">
+            <field name="name">3.Saving</field>
+            <field name="carrier_id" ref="giao_hang_nhanh_delivery_carrier"></field>
+            <field name="code">3</field>
+        </record>
+
+        <!-- <record id="config_ghn_token" model="ir.config_parameter">
+            <field name="key">ghn_token</field>
+            <field name="value">81f253e7-e8da-11ea-84a7-3e05d9a3136e</field>
+        </record> -->
+
+        <!-- <record id="res_partner_2" model="res.partner">
+            <field name="name">Agrolait</field>
+            <field eval="[(6, 0, [ref('base.res_partner_category_7'), ref('base.res_partner_category_9')])]" name="category_id"/>
+            <field name="is_company">1</field>
+            <field name="city">Wavre</field>
+            <field name="zip">1300</field>
+            <field name="country_id" ref="base.be"/>
+            <field name="street">69 rue de Namur</field>
+            <field name="email">agrolait@yourcompany.example.com</field>
+            <field name="phone">+32 10 588 558</field>
+            <field name="website">http://www.agrolait.com</field>
+            <field name="image" type="base64" file="base/static/img/res_partner_2-image.jpg"/>
+        </record> -->
+
+        <record id="config_ghn_token" model="ir.config_parameter">
+            <field name="key">ndt_ghn_extend.ghn_token</field>
+            <field name="value">81f253e7-e8da-11ea-84a7-3e05d9a3136e</field>
+        </record>
+
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'stock'), ('name', '=', 'warehouse0')]"/>
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+        <record id="stock.warehouse0" model="stock.warehouse">
+            <field name="ghn_shop_id">1295159</field>
+        </record>
+        
+    </data>
+</odoo>

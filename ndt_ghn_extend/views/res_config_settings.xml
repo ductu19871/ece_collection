@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.ndt_ghn_extend</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="30"/>
+            <field name="inherit_id" ref="stock.res_config_settings_view_form" />
+            <field name="arch" type="xml">
+                <!-- <xpath expr="//div[@id='warning_info']" position="after">
+                    <div class="col-xs-12 col-md-6 o_setting_box" title="If this checkbox is ticked, you will not be able to save a contact if its VAT number cannot be verified by the European VIES service.">
+                        <div class="o_setting_right_pane">
+                            <field name="ghn_token"/>
+                        </div>
+                        <div class="o_setting_left_pane">
+                            <label for="ghn_token"/>
+                        </div>
+                    </div>
+                </xpath> -->
+                <!-- <xpath expr="//div[@id='warning_info']" position="after">
+                    <div class="col-xs-12 col-md-6 o_setting_box">
+                        <div class="o_setting_right_pane">
+                            <label for="ghn_token"/>
+                          
+                            <div class="content-group">
+                                <div class="mt16">
+                                    <field name="ghn_token"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath> -->
+
+
+                <xpath expr="//div[@id='warning_info']" position="after">
+                    <div class="col-xs-12 col-md-6 o_setting_box">
+                        <div class="o_setting_right_pane">
+                            <label for="ghn_token"/>
+                            <div class="content-group">
+                                <div class="mt16">
+                                    <field name="ghn_token"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+
+
+            </field>
+        </record>
+    </data>
+</odoo>

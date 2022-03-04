@@ -1,0 +1,21 @@
+<odoo>
+    <record model="ir.actions.act_window" id="res_country_district_download">
+        <field name="name">Download XML District</field>
+        <field name="res_model">ndtdl.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="ndt_ghn.model_res_country_district"/>
+        <field name="binding_view_types">list</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="res_country_ward_download">
+        <field name="name">Download XML District</field>
+        <field name="res_model">ndtdl.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="ndt_ghn.model_res_country_ward"/>
+        <field name="binding_view_types">list</field>
+    </record>
+
+
+</odoo>

@@ -1,0 +1,68 @@
+<odoo>
+    
+
+     <record id="action_get_ghn_province" model="ir.actions.server">
+        <field name="name">Update các trường ghn của Tỉnh New </field>
+        <field name="model_id" ref="model_res_country_state"/>
+        <field name="binding_model_id" ref="base.model_res_country_state"/>
+        <field name="state">code</field>
+        <field name="code">
+                records.update_ghn_province_code_from_all_ghn_provines()
+        </field>
+    </record>
+
+     <record id="action_clone_ghn_district_per_1_province" model="ir.actions.server">
+        <field name="name">clone_ghn_district_per_multi_provinces</field>
+        <field name="model_id" ref="model_res_country_state"/>
+        <field name="binding_model_id" ref="base.model_res_country_state"/>
+        <field name="state">code</field>
+        <field name="code">
+                records.clone_ghn_district_per_multi_provinces()
+        </field>
+    </record>
+
+    <record id="action_from_ghn_create_ward_per_one_district" model="ir.actions.server">
+        <field name="name">Tạo dữ liệu phường xã từ GHN New</field>
+        <field name="model_id" ref="model_res_country_district"/>
+        <field name="binding_model_id" ref="ndt_ghn.model_res_country_district"/>
+        <field name="state">code</field>
+        <field name="code">
+                records.from_ghn_create_ward_per_mutil_district()
+        </field>
+    </record>
+
+    <!-- ##### -->
+
+    <record id="action_get_ghn_ward" model="ir.actions.server">
+        <field name="name">Lấy dữ liệu phường</field>
+        <field name="model_id" ref="model_res_country_ward"/>
+        <field name="binding_model_id" ref="ndt_ghn.model_res_country_ward"/>
+        <field name="state">code</field>
+        <field name="code">
+                records.get_ghn_ward()
+        </field>
+    </record>
+
+    <record id="action_get_ghn_district" model="ir.actions.server">
+        <field name="name">Lấy dữ liệu quận/huyện</field>
+        <field name="model_id" ref="model_res_country_district"/>
+        <field name="binding_model_id" ref="ndt_ghn.model_res_country_district"/>
+        <field name="state">code</field>
+        <field name="code">
+                records.action_update_this_district_ghn_code()
+        </field>
+    </record>
+
+    <record id="action_get_ghn_ward_one_district" model="ir.actions.server">
+        <field name="name">Lấy dữ liệu phường/xã của quận (get wards ghn items)</field>
+        <field name="model_id" ref="model_res_country_district"/>
+        <field name="binding_model_id" ref="ndt_ghn.model_res_country_district"/>
+        <field name="state">code</field>
+        <field name="code">
+                records.get_ghn_ward_one_district()
+        </field>
+    </record>
+
+    
+</odoo>
+
