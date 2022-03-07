@@ -32,7 +32,86 @@
         <!-- <field name="currency_id" ref="base.EUR"/> -->
     </record>
 
+    <!-- /////////////////////////////////////// Product Catedory ///////////////////////////////////// -->
+    <record id="product_category" model="product.public.category">
+        <field name="name">Thực phẩm chức năng</field>
+    </record>
+
+    <record id="product_category_parent" model="product.public.category">
+        <field name="parent_id" ref="product_category"/>
+        <field name="name">Đông trùng hạ thảo</field>
+    </record>
+
+    <!--/////////// Child //////////-->
+    <record id="product_category_child_1" model="product.public.category">
+        <field name="parent_id" ref="product_category_parent"/>
+        <field name="name">Hector Sâm</field>
+    </record>
+
+    <record id="product_category_child_2" model="product.public.category">
+        <field name="parent_id" ref="product_category_parent"/>
+        <field name="name">Hector Collagen</field>
+    </record>
+
+    <record id="product_category_child_3" model="product.public.category">
+        <field name="parent_id" ref="product_category_parent"/>
+        <field name="name">Hector Viên Nang</field>
+    </record>
+
+    <record id="product_category_child_4" model="product.public.category">
+        <field name="parent_id" ref="product_category_parent"/>
+        <field name="name">Hector Sợi</field>
+    </record>
+
+    <!-- SunShine  -->
+    <record id="product_category_skincare" model="product.public.category">
+        <field name="name">Sản phẩm làm đẹp</field>
+    </record>
+
+    <record id="product_category_skincare_parent" model="product.public.category">
+        <field name="parent_id" ref="product_category_skincare"/>
+        <field name="name">SunShine</field>
+    </record>
+
+    <!-- ////// Child ///////-->
+    <record id="product_category_skincare_child_1" model="product.public.category">
+        <field name="parent_id" ref="product_category_skincare_parent"/>
+        <field name="name">Gel rửa mặt IDENEL</field>
+    </record>
+
+    <record id="product_category_skincare_child_2" model="product.public.category">
+        <field name="parent_id" ref="product_category_skincare_parent"/>
+        <field name="name">Vi kim gai Nanotox</field>
+    </record>
+
+    <!--  Company  -->
+    <record id="product_category_concern" model="product.public.category">
+        <field name="name">Các doanh nghiệp</field>
+    </record>
+
+    <record id="product_category_concern_parent_1" model="product.public.category">
+        <field name="parent_id" ref="product_category_concern"/>
+        <field name="name">Về công nghệ</field>
+    </record>
+
+    <record id="product_category_concern_parent_2" model="product.public.category">
+        <field name="parent_id" ref="product_category_concern"/>
+        <field name="name">Luật sư</field>
+    </record>
+
+    <!-- Child  -->
+    <record id="product_category_concern_child_1" model="product.public.category">  
+        <field name="parent_id" ref="product_category_concern_parent_1"/>
+        <field name="name">Việt Japan Partner</field>
+    </record>
+
+    <record id="product_category_concern_child_2" model="product.public.category">
+        <field name="parent_id" ref="product_category_concern_parent_2"/>
+        <field name="name">NVCS</field>
+    </record>
+
     <record id="product_product_hector_1" model="product.template">
+        <field name="public_categ_ids" eval="[(6, 0, [ref('ece.product_category_child_1')])]"/>
         <field name="name">Đông trùng hạ thảo Hector Sâm</field>
         <field name="standard_price">800000</field>
         <field name="list_price">900000</field>
@@ -180,6 +259,7 @@
     </record>
 
     <record id="product_product_hector_2" model="product.template">
+        <field name="public_categ_ids" eval="[(6, 0, [ref('ece.product_category_child_2')])]"/>
         <field name="name">Nước Đông trùng hạ thảo Hector Collagen</field>
         <field name="standard_price">580000</field>
         <field name="list_price">580000</field>
@@ -338,6 +418,7 @@
     </record>
 
     <record id="product_product_hector_3" model="product.template">
+        <field name="public_categ_ids" eval="[(6, 0, [ref('ece.product_category_child_3')])]"/>
         <field name="name">Viên nang Đông trùng hạ thảo Hector</field>
         <field name="standard_price">900000</field>
         <field name="list_price">900000</field>
@@ -477,6 +558,7 @@
     </record>
 
     <record id="product_product_hector_4" model="product.template">
+        <field name="public_categ_ids" eval="[(6, 0, [ref('ece.product_category_child_4')])]"/>
         <field name="name">Sợi Đông trùng hạ thảo Hector</field>
         <field name="standard_price">900000</field>
         <field name="list_price">900000</field>
@@ -612,6 +694,7 @@
     </record>
 
     <record id="product_product_sunshine_1" model="product.template">
+        <field name="public_categ_ids" eval="[(6, 0, [ref('ece.product_category_skincare_child_1')])]"/>
         <field name="name">Gel Rửa Mặt IDENEL 150ml</field>
         <field name="standard_price">600000</field>
         <field name="list_price">650000</field>
@@ -871,6 +954,7 @@
     </record>
 
     <record id="product_product_sunshine_2" model="product.template">
+        <field name="public_categ_ids" eval="[(6, 0, [ref('ece.product_category_skincare_child_2')])]"/>
         <field name="name">Vi kim gai Nanotox</field>
         <field name="standard_price">1200000</field>
         <field name="list_price">1800000</field>
@@ -1074,6 +1158,7 @@
     </record>
 
     <record id="product_product_nvcs" model="product.template">
+        <field name="public_categ_ids" eval="[(6, 0, [ref('ece.product_category_concern_child_2')])]"/>
         <field name="name">Gói “Luật sư”</field>
         <field name="standard_price">500000</field>
         <field name="list_price">500000</field>
@@ -1237,6 +1322,7 @@
     </record>
 
     <record id="product_product_vjp" model="product.template">
+        <field name="public_categ_ids" eval="[(6, 0, [ref('ece.product_category_concern_child_1')])]"/>
         <field name="name">Giải pháp phần mềm CNTT</field>
         <field name="standard_price">5000000</field>
         <field name="list_price">5000000</field>
