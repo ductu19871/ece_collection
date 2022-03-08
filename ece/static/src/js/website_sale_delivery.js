@@ -33,17 +33,17 @@ odoo.define('ece.checkout', function (require) {
                 // $("input[name='phone']").attr('placeholder', data.phone_code !== 0 ? '+'+ data.phone_code : '');
     
                 // populate states and display
-                var selectStates = $("select[name='district_id']");
+                var selectDistrict = $("select[name='district_id']");
                 // dont reload state at first loading (done in qweb)
     
-                selectStates.html('');
+                selectDistrict.html('');
                 _.each(data.states, function (x) {
                     var opt = $('<option>').text(x[1])
                         .attr('value', x[0])
                         .attr('data-code', x[2]);
-                    selectStates.append(opt);
+                    selectDistrict.append(opt);
                 });
-                selectStates.parent('div').show();
+                selectDistrict.parent('div').show();
     
     
             });
@@ -60,7 +60,7 @@ odoo.define('ece.checkout', function (require) {
                     // mode: $("#state_id").attr('mode'),
                 },
             }).then(function (data) {
-                console.log('**data trong _changeState', data)
+                console.log('**data trong _changeDistrict', data)
                 // placeholder phone_code
                 // $("input[name='phone']").attr('placeholder', data.phone_code !== 0 ? '+'+ data.phone_code : '');
     
