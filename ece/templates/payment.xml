@@ -1,0 +1,19 @@
+<odoo>
+    <template id="payment.payment_process_page" name="Payment processing page">
+        <t t-call="portal.frontend_layout">
+            <div class="wrap">
+                <div class="container o_website_payment">
+                    <div t-raw="company_id.payment_note">
+                    </div>
+                    <div class="o_payment_processing">
+                        <div class="row">
+                            <div class="o_payment_processing_content col-sm-6 col-sm-offset-3">
+                                <!-- The content here is generated in JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

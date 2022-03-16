@@ -13,7 +13,7 @@
             <field name="email">ductu19871@gmail.com</field>
             <field name="website">www.com</field>
             <field name="vat">0303452460</field>
-            <field name="currency_id" ref="base.VND"/>
+            <!-- <field name="currency_id" ref="base.VND"/> -->
             <field name="logo" type="base64" file="ece/static/description/logo.png"/>
             <field name="favicon" type="base64" file="ece/static/description/logo.png"/>
         </record>

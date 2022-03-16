@@ -11,7 +11,9 @@
                 <page name="ECobiz Ecommerce" string="ECE">
                     <group >
                         <field name="ghn_shop_id" />
+                        <field name="payment_note" nolabel="1" />
                     </group>
+                    
                 </page>
             </xpath>
             

@@ -36,6 +36,8 @@
         'templates/card_line.xml',
         'templates/payment_delivery.xml',
         'templates/layout.xml',
+        'templates/payment.xml',
+
         'test_templates/payment.xml',
 
 

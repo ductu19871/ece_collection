@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 <!-- /shop/payment/transaction/ -> tx_url = '/payment/transfer/feedback' ->  sau khi form_feedback(post, 'transfer') -> werkzeug.utils.redirect('/payment/process')
-=> /shop/payment/validate
-@http.route(['/payment/process'], type="http", auth="public", website=True, sitemap=False)
-    def payment_status_page(self, **kwargs):
-        # When the customer is redirect to this website page,
-        # we retrieve the payment transaction list from his session
-        tx_ids_list = self.get_payment_transaction_ids()
-        payment_transaction_ids = request.env['payment.transaction'].sudo().browse(tx_ids_list).exists()
-
-        render_ctx = {
-            'payment_tx_ids': payment_transaction_ids.ids,
-        }
-        return request.render("payment.payment_process_page", render_ctx) -->
+-->
     <template id="default_acquirer_button">
         <input type="hidden" name="data_set" t-att-data-action-url="tx_url"/>
         <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>

@@ -293,7 +293,43 @@ class WebsiteSale1(WebsiteSale):
 
         return request.render("website_sale.cart", values)
 
+    def _get_search_domain(self, search, category, attrib_values, search_in_description=True):
+        domain = super()._get_search_domain(search, category, attrib_values, search_in_description)
+        domain +=[('is_published','=',True)]
+        return domain
 
+        # domains = [request.website.sale_product_domain()]
+        # if search:
+        #     for srch in search.split(" "):
+        #         subdomains = [
+        #             [('name', 'ilike', srch)],
+        #             [('product_variant_ids.default_code', 'ilike', srch)]
+        #         ]
+        #         if search_in_description:
+        #             subdomains.append([('description', 'ilike', srch)])
+        #             subdomains.append([('description_sale', 'ilike', srch)])
+        #         domains.append(expression.OR(subdomains))
+
+        # if category:
+        #     domains.append([('public_categ_ids', 'child_of', int(category))])
+
+        # if attrib_values:
+        #     attrib = None
+        #     ids = []
+        #     for value in attrib_values:
+        #         if not attrib:
+        #             attrib = value[0]
+        #             ids.append(value[1])
+        #         elif value[0] == attrib:
+        #             ids.append(value[1])
+        #         else:
+        #             domains.append([('attribute_line_ids.value_ids', 'in', ids)])
+        #             attrib = value[0]
+        #             ids = [value[1]]
+        #     if attrib:
+        #         domains.append([('attribute_line_ids.value_ids', 'in', ids)])
+        # domains.append([()])
+        # return expression.AND(domains)
 
     @http.route()# thêm dòng Product = Product.sudo()
     def shop(self, page=0, category=None, search='', ppg=False, **post):
