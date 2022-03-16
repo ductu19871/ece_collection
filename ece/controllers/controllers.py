@@ -62,7 +62,7 @@ class TableCompute(object):
                 self.table[posy + y].setdefault(x, None)
         return res
 
-    def process(self, products, ppg=20, ppr=4):
+    def process(self, products, ppg=20, ppr=3):
         # Compute products positions on the grid
         minpos = 0
         index = 0

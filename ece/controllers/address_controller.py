@@ -38,27 +38,16 @@ class WebsiteSale2(WebsiteSale):
     def state_infos(self, state, **kw):
         print ('**state**', state)
         return dict(
-            # fields=country.get_address_fields(),
-            states=[(st.id, st.name, st.code) for st in state.get_website_sale_district()],
-            # phone_code=country.phone_code,
-            # zip_required=country.zip_required,
-            # state_required=country.state_required,
+            states=[(st.id, st.name, st.code) for st in state.sudo().district_ids],
         )
-    #  /shop/district_infos/
-    @http.route(['/shop/district_infos/<model("res.country.district"):country>'], type='json', auth="public", methods=['POST'], website=True)
-    def district_infos(self, country, **kw):
-        print ('**country**', country)
+    @http.route(['/shop/district_infos/<model("res.country.district"):district>'], type='json', auth="public", methods=['POST'], website=True)
+    def district_infos(self, district, **kw):
         return dict(
-            # fields=country.get_address_fields(),
-            states=[(st.id, st.name, st.code) for st in country.get_website_sale_ward()],
-            # phone_code=country.phone_code,
-            # zip_required=country.zip_required,
-            # state_required=country.state_required,
+            states=[(st.id, st.name, st.code) for st in district.sudo().ward_ids],
         )
 
     
     def _get_mandatory_shipping_fields(self):
-        # return ["name", "street", "city", "country_id"]
         return ["name", "street","country_id"]
 
     @http.route(['/shop/address'], type='http', methods=['GET', 'POST'], auth="public", website=True, sitemap=False)

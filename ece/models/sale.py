@@ -6,7 +6,7 @@ import inspect
 class SOL(models.Model):
     _inherit = 'sale.order.line'
 
-    company2_id = fields.Many2one('res.company')
+    company2_id = fields.Many2one('res.company')# company sau tách đơn
 
 class GR(models.AbstractModel):
     _name = 'ece.gr'
@@ -14,7 +14,6 @@ class GR(models.AbstractModel):
     company_id = fields.Many2one('res.company')
     sol_ids = fields.Many2many('sale.order.line')
 class Sale(models.Model):
-    # _name = 'ece.ece'
     _inherit = 'sale.order'
 
     sol_gr_ids = fields.Many2many('ece.gr', compute='_compute_sol_gr_ids')
@@ -45,7 +44,6 @@ class Sale(models.Model):
                 ece_gr_ids |=gr_obj
             r.sol_gr_ids = ece_gr_ids
 
-
     # @tools.ormcache('self.id')
     def get_sol_group_by_company(self):
         sol_groups = {}
@@ -56,7 +54,6 @@ class Sale(models.Model):
             sol_groups[company_id] = lines
 
         return sol_groups
-
 
     def tach_don(self):
         self = self.sudo()
@@ -135,12 +132,12 @@ class Sale(models.Model):
     # def _remove_delivery_line(self):
     #     self.env['sale.order.line'].search([('order_id', 'in', self.ids), ('is_delivery', '=', True)]).unlink()
 
-    def set_delivery_line(self, carrier, amount, company=None):
-        self._remove_delivery_line(company=company)
+    def set_delivery_line(self, carrier, amount, company=None):#ư= thêm company
+        self._remove_delivery_line(company=company) # thêm company
 
         for order in self:
             order.carrier_id = carrier.id
-            order._create_delivery_line(carrier, amount,company=company)
+            order._create_delivery_line(carrier, amount,company=company)# thêm company
         return True
 
     def _remove_delivery_line(self, company=None):
@@ -149,7 +146,6 @@ class Sale(models.Model):
             domain.append(('company2_id','=', company))
         self.env['sale.order.line'].search(domain).unlink()
 
-    
     def _create_delivery_line(self, carrier, price_unit, company=None):
         SaleOrderLine = self.env['sale.order.line']
         if self.partner_id:
@@ -283,9 +279,6 @@ class Sale(models.Model):
             transaction.s2s_do_transaction()
 
         return transaction
-
-    
-
 
 class SaleOrderLine(models.Model):
     _inherit = 'sale.order.line'
