@@ -21,6 +21,7 @@
             <field name="product_id" ref="giao_hang_nhanh_delivery"></field>
             <!-- <field name = "is_use_api_shipping">1</field> -->
             <field name="delivery_type">base_on_api</field>
+            <field name="is_published">True</field>
         </record>
 
         <record model="ndt.delivery.service.type" id ="giao_hang_nhanh_delivery_carrier_type_1">
