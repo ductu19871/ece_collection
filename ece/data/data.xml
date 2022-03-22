@@ -3,8 +3,19 @@
 
     <data noupdate="0">
 
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[
+                    ('model', '=', 'res.company'),
+                    ('module', '=', 'base'),
+                    ('name', 'in', ['main_company']),
+                ]"/>
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
         <record id="base.main_company" model="res.company">
-            <field name="name">CÔNG TY CỔ PHẦN VJP</field>
+            <field name="name">CÔNG TY CỔ PHẦN VJP K</field>
             <field name="street">Gò Vấp</field>
             <field name="city">Gò Vấp</field>
             <field name="state_id" ref="base.state_vn_VN-SG"/>
@@ -16,6 +27,11 @@
             <!-- <field name="currency_id" ref="base.VND"/> -->
             <field name="logo" type="base64" file="ece/static/description/logo.png"/>
             <field name="favicon" type="base64" file="ece/static/description/logo.png"/>
+            <field name="payment_note" type="html">
+                <h2>Tài khoàn ngân hàng</h2>
+                <p>Nguyễn Đức Tứ David:</p>
+                <p>0071000724861</p>
+            </field>
         </record>
 
         <record id="company1" model="res.company">
