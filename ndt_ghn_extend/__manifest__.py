@@ -7,7 +7,8 @@
     'website': "http://www.vidoo.vn",
     'author': "Nguyen Duc Tu",
     "license": "AGPL-3",
-    'depends': ['base','ndt_ghn','delivery','stock','purchase'],
+    
+    'depends': ['base','ndt_ghn','delivery','stock','purchase','website_sale_delivery'],
     'data': [
         'security/ir.model.access.csv',
         'data/data.xml',
